@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/VPCOE/SERVICE_GROUP</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Service Group</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ORG</DOMVALUE_L>
+     <DDTEXT>Organization Data</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CONF</DOMVALUE_L>
+     <DDTEXT>Configuration Data</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CSTMR</DOMVALUE_L>
+     <DDTEXT>Customer Data</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PRD</DOMVALUE_L>
+     <DDTEXT>Product</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DLVR</DOMVALUE_L>
+     <DDTEXT>Delivery</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PCKG</DOMVALUE_L>
+     <DDTEXT>Packaging</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SUPLR</DOMVALUE_L>
+     <DDTEXT>Supplier</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BATCH</DOMVALUE_L>
+     <DDTEXT>Batch</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DOC</DOMVALUE_L>
+     <DDTEXT>Material Documents</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DOCINSUP</DOMVALUE_L>
+     <DDTEXT>Inflow from Suppliers (with Reversals)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DOCINPLANT</DOMVALUE_L>
+     <DDTEXT>Inflows from Plant to Plants with same/different Company</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTPLAN</DOMVALUE_L>
+     <DDTEXT>Outflows from Plant to Plants with same/different Company</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTCUST</DOMVALUE_L>
+     <DDTEXT>Outflows to Customers</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTOPER</DOMVALUE_L>
+     <DDTEXT>Outflows for Operations and Productions</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PFMDOC</DOMVALUE_L>
+     <DDTEXT>Material Documents PFM</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DOCINPROD</DOMVALUE_L>
+     <DDTEXT>Inflows from Production</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>INVEN</DOMVALUE_L>
+     <DDTEXT>Inventory</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>COSTEST</DOMVALUE_L>
+     <DDTEXT>Cost Estimates</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RUNID</DOMVALUE_L>
+     <DDTEXT>Run ID</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PLM</DOMVALUE_L>
+     <DDTEXT>PLM Reports</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BDI</DOMVALUE_L>
+     <DDTEXT>Billing Document Items</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SII</DOMVALUE_L>
+     <DDTEXT>Supplier Invoice Item</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CODE</DOMVALUE_L>
+     <DDTEXT>Company Code Exemptions</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>Service Group</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Service Group</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>ORG</DOMVALUE_L>
+     <DDTEXT>Organization Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ORG</DOMVALUE_L>
+     <DDTEXT>Organization Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>CONF</DOMVALUE_L>
+     <DDTEXT>Configuration Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CONF</DOMVALUE_L>
+     <DDTEXT>Configuration Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>CSTMR</DOMVALUE_L>
+     <DDTEXT>Customer Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CSTMR</DOMVALUE_L>
+     <DDTEXT>Customer Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>PRD</DOMVALUE_L>
+     <DDTEXT>Product</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PRD</DOMVALUE_L>
+     <DDTEXT>Product</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DLVR</DOMVALUE_L>
+     <DDTEXT>Delivery</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DLVR</DOMVALUE_L>
+     <DDTEXT>Delivery</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>PCKG</DOMVALUE_L>
+     <DDTEXT>Packaging</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PCKG</DOMVALUE_L>
+     <DDTEXT>Packaging</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>SUPLR</DOMVALUE_L>
+     <DDTEXT>Supplier</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>SUPLR</DOMVALUE_L>
+     <DDTEXT>Supplier</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>BATCH</DOMVALUE_L>
+     <DDTEXT>Batch</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BATCH</DOMVALUE_L>
+     <DDTEXT>Batch</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DOC</DOMVALUE_L>
+     <DDTEXT>Material Documents</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DOC</DOMVALUE_L>
+     <DDTEXT>Material Documents</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DOCINSUP</DOMVALUE_L>
+     <DDTEXT>Inflow from Suppliers (with Reversals)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DOCINSUP</DOMVALUE_L>
+     <DDTEXT>Inflow from Suppliers (with Reversals)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DOCINPLANT</DOMVALUE_L>
+     <DDTEXT>Inflows from Plant to Plants with same/different Company</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DOCINPLANT</DOMVALUE_L>
+     <DDTEXT>Inflows from Plant to Plants with same/different Company</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTPLAN</DOMVALUE_L>
+     <DDTEXT>Outflows from Plant to Plants with same/different Company</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTPLAN</DOMVALUE_L>
+     <DDTEXT>Outflows from Plant to Plants with same/different Company</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTCUST</DOMVALUE_L>
+     <DDTEXT>Outflows to Customers</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTCUST</DOMVALUE_L>
+     <DDTEXT>Outflows to Customers</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTOPER</DOMVALUE_L>
+     <DDTEXT>Outflows for Operations and Productions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DOCOUTOPER</DOMVALUE_L>
+     <DDTEXT>Outflows for Operations and Productions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>PFMDOC</DOMVALUE_L>
+     <DDTEXT>Material Documents PFM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PFMDOC</DOMVALUE_L>
+     <DDTEXT>Material Documents PFM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>DOCINPROD</DOMVALUE_L>
+     <DDTEXT>Inflows from Production</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DOCINPROD</DOMVALUE_L>
+     <DDTEXT>Inflows from Production</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>INVEN</DOMVALUE_L>
+     <DDTEXT>Inventory</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>INVEN</DOMVALUE_L>
+     <DDTEXT>Inventory</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>COSTEST</DOMVALUE_L>
+     <DDTEXT>Cost Estimates</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>COSTEST</DOMVALUE_L>
+     <DDTEXT>Cost Estimates</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>RUNID</DOMVALUE_L>
+     <DDTEXT>Run ID</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>RUNID</DOMVALUE_L>
+     <DDTEXT>Run ID</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>PLM</DOMVALUE_L>
+     <DDTEXT>PLM Reports</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PLM</DOMVALUE_L>
+     <DDTEXT>PLM Reports</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>BDI</DOMVALUE_L>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BDI</DOMVALUE_L>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>SII</DOMVALUE_L>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>SII</DOMVALUE_L>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>CODE</DOMVALUE_L>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CODE</DOMVALUE_L>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

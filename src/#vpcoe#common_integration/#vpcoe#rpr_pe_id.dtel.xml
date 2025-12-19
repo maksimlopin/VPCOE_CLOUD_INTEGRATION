@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RPR_PE_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/VPCOE/RPR_PE_ID</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>ID of a Process Element</DDTEXT>
+    <REPTEXT>ID</REPTEXT>
+    <SCRTEXT_S>Pr.Elem.ID</SCRTEXT_S>
+    <SCRTEXT_M>Proc.Element ID</SCRTEXT_M>
+    <SCRTEXT_L>Process Element ID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>ID eines Prozesselements</DDTEXT>
+     <REPTEXT>ID</REPTEXT>
+     <SCRTEXT_S>ProzEl-ID</SCRTEXT_S>
+     <SCRTEXT_M>Prozesselem.-ID</SCRTEXT_M>
+     <SCRTEXT_L>Prozesselement-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>プロセス要素 ID</DDTEXT>
+     <REPTEXT>ID</REPTEXT>
+     <SCRTEXT_S>Pr.要素 ID</SCRTEXT_S>
+     <SCRTEXT_M>プロセス要素 ID</SCRTEXT_M>
+     <SCRTEXT_L>プロセス要素 ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>ID van proceselement</DDTEXT>
+     <REPTEXT>ID</REPTEXT>
+     <SCRTEXT_S>ProcEl.-ID</SCRTEXT_S>
+     <SCRTEXT_M>ProceselementID</SCRTEXT_M>
+     <SCRTEXT_L>Proceselement-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID de elemento de proceso</DDTEXT>
+     <REPTEXT>ID</REPTEXT>
+     <SCRTEXT_S>ID ElProc.</SCRTEXT_S>
+     <SCRTEXT_M>ID elem.proceso</SCRTEXT_M>
+     <SCRTEXT_L>ID elemento proceso</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

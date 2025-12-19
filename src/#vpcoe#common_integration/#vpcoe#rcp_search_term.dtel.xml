@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RCP_SEARCH_TERM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Search Term Generated from Single-Field Recipe Input</DDTEXT>
+    <REPTEXT>Recipe from Single-Field Recipe Input</REPTEXT>
+    <SCRTEXT_S>Recipe</SCRTEXT_S>
+    <SCRTEXT_M>Recipe</SCRTEXT_M>
+    <SCRTEXT_L>Recipe from Single-Field Rec. Input</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000020</LENG>
+    <OUTPUTLEN>000020</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Suchbegriff aus Rezepteingabe über Einzelfeld generiert</DDTEXT>
+     <REPTEXT>Rezept aus Rezepteingabe über Einzelfeld</REPTEXT>
+     <SCRTEXT_S>Rezept</SCRTEXT_S>
+     <SCRTEXT_M>Rezept</SCRTEXT_M>
+     <SCRTEXT_L>Rezept aus Rezepteingabe über Einzelfeld</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>単一項目レシピ入力から生成された検索語句</DDTEXT>
+     <REPTEXT>単一項目レシピ入力からのレシピ</REPTEXT>
+     <SCRTEXT_S>レシピ</SCRTEXT_S>
+     <SCRTEXT_M>レシピ</SCRTEXT_M>
+     <SCRTEXT_L>単一項目レシピ入力からのレシピ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Zoekbegrip gegenereerd uit receptinvoer via afzonderl. veld</DDTEXT>
+     <REPTEXT>Recept uit receptinvoer via afzonderlijk veld</REPTEXT>
+     <SCRTEXT_S>Recept</SCRTEXT_S>
+     <SCRTEXT_M>Recept</SCRTEXT_M>
+     <SCRTEXT_L>Recept uit receptinvoer via afz. veld</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Concepto búsq.entrada receta generada med.campo individual</DDTEXT>
+     <REPTEXT>Receta de entrada receta med.campo individual</REPTEXT>
+     <SCRTEXT_S>Receta</SCRTEXT_S>
+     <SCRTEXT_M>Receta</SCRTEXT_M>
+     <SCRTEXT_L>Receta entrada receta med.campo individ.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

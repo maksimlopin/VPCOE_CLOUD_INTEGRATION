@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/TD_UPH_FACTORY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Test double for package factory</DESCRIPT>
+    <CATEGORY>05</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_BADI_UPH_CUSTOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BADI Interface for Custom Packaging Elements Load</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_BADI_UPH_CUSTOM</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>BADI Interface for Custom Packaging Elements Load</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_BADI_UPH_CUSTOM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>BADI Interface for Custom Packaging Elements Load</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SURDP_LOGGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logger class for uploading data to RDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SURDP_LOGGER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Logger class for uploading data to RDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SURDP_LOGGER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Logger class for uploading data to RDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_PROC_PCKG_PLM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Upload Entity processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_PROC_PCKG_PLM</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for Upload Entity processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_PROC_PCKG_PLM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for Upload Entity processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

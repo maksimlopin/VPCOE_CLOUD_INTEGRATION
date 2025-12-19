@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_RDP_BILLDOCIT_DATA</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Billing Document Items Handler</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BUILD_AND_STORE_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Build JSON and Store in temporary DB for further processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLOSE_REPLICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SUMA API: Close Replication</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_AND_STORE_JSON</CMPNAME>
+     <SCONAME>IO_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_AND_STORE_JSON</CMPNAME>
+     <SCONAME>IV_LEVEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Level in the JSON</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_JSON</CMPNAME>
+     <SCONAME>IO_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_JSON</CMPNAME>
+     <SCONAME>IV_LEVEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Level in the JSON</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLOSE_REPLICATION</CMPNAME>
+     <SCONAME>IO_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

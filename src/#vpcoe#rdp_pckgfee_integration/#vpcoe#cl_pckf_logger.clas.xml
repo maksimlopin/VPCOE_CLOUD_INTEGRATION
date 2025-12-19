@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_PCKF_LOGGER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Logger class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_UPLOAD_MODE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_UPLOAD_MODE_TEXT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_UPLOAD_MODE_TEXT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table for Messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table for Messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table for Messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOG_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOG_HANDLE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOG_HANDLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

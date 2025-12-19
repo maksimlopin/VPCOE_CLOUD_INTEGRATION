@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/VPCOE/IF_UPH_CUSTOM</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BADI Interface for Custom Packaging Elements Load</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TARGET_ENDPOINT_DEST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Target Destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TARGET_ENDPOINT_DEST</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Get Target Destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TARGET_ENDPOINT_DEST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Get Target Destination</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_MAPPER</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_MAPPER</CMPNAME>
+     <SCONAME>RO_MAPPER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>the upload entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>the upload entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>the upload entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>IV_UPLOAD_MODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>IV_UPLOAD_MODE</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>IV_UPLOAD_MODE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>RO_PROCESSOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>entity processor implementation</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>RO_PROCESSOR</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>entity processor implementation</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ENTITY_PROCESSOR</CMPNAME>
+     <SCONAME>RO_PROCESSOR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>entity processor implementation</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TARGET_ENDPOINT_DEST</CMPNAME>
+     <SCONAME>EV_ENDPOINT_DEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TARGET_ENDPOINT_DEST</CMPNAME>
+     <SCONAME>EV_ENDPOINT_DEST</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TARGET_ENDPOINT_DEST</CMPNAME>
+     <SCONAME>EV_ENDPOINT_DEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,99 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" template="tmpl1">
+  <tt:root name="ROOT"/>
+  <tt:template name="tmpl1">
+    <object>
+      <str name="source">
+        <tt:value ref="ROOT.SOURCE"/>
+      </str>
+      <array name="elements">
+        <tt:loop ref="ROOT.ELEMENTS">
+          <object>
+            <str name="id">
+              <tt:value ref="$ref.ID"/>
+            </str>
+            <str name="type">
+              <tt:value ref="$ref.TYPE"/>
+            </str>
+            <str name="isMarkedForDeletion">
+              <tt:value ref="$ref.IS_MARKED_FOR_DELETION"/>
+            </str>
+            <str name="baseUnitOfMeasure">
+              <tt:value ref="$ref.BASE_UNIT_OF_MEASURE"/>
+            </str>
+            <str name="division">
+              <tt:value ref="$ref.DIVISION"/>
+            </str>
+            <str name="productGroup">
+              <tt:value ref="$ref.PRODUCT_GROUP"/>
+            </str>
+            <str name="productHierarchy">
+              <tt:value ref="$ref.PRODUCT_HIERARCHY"/>
+            </str>
+            <array name="texts">
+              <tt:loop ref="$ref.TEXTS">
+                <object>
+                  <str name="language">
+                    <tt:value ref="$ref.LANGUAGE"/>
+                  </str>
+                  <str name="name">
+                    <tt:value ref="$ref.NAME"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+            <array name="quantityDimensions">
+              <tt:loop ref="$ref.QUANTITY_DIMENSIONS">
+                <object>
+                  <str name="measurementUnit">
+                    <tt:value ref="$ref.MEASUREMENT_UNIT"/>
+                  </str>
+                  <str name="netWeight">
+                    <tt:value ref="$ref.NET_WEIGHT"/>
+                  </str>
+                  <str name="grossWeight">
+                    <tt:value ref="$ref.GROSS_WEIGHT"/>
+                  </str>
+                  <str name="weightMeasurementUnit">
+                    <tt:value ref="$ref.WEIGHT_MEASUREMENT_UNIT"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+
+            <array name="productUnitOfMeasures">
+              <tt:loop ref="$ref.PRODUCT_UNIT_OF_MEASURES">
+                <object>
+                  <str name="measurementUnit">
+                    <tt:value ref="$ref.MEASUREMENT_UNIT"/>
+                  </str>
+                  <str name="numerator">
+                    <tt:value ref="$ref.NUMERATOR"/>
+                  </str>
+                  <str name="denominator">
+                    <tt:value ref="$ref.DENOMINATOR"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+            <array name="productSales">
+              <tt:loop ref="$ref.PRODUCT_SALES">
+                <object>
+                  <str name="salesOrganization">
+                    <tt:value ref="$ref.SALES_ORGANIZATION"/>
+                  </str>
+                  <str name="distributionChannel">
+                    <tt:value ref="$ref.DISTRIBUTION_CHANNEL"/>
+                  </str>
+                  <str name="salesMeasureUnit">
+                    <tt:value ref="$ref.SALES_MEASURE_UNIT"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+          </object>
+        </tt:loop>
+      </array>
+    </object>
+  </tt:template>
+</tt:transform>

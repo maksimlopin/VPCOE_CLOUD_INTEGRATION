@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_COMPTYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Component Type of Formula Item</DDTEXT>
+    <REPTEXT>Component Type</REPTEXT>
+    <SCRTEXT_S>Comp.Type</SCRTEXT_S>
+    <SCRTEXT_M>Component Type</SCRTEXT_M>
+    <SCRTEXT_L>Component Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Komponentenart der Formelposition</DDTEXT>
+     <REPTEXT>Komponentenart</REPTEXT>
+     <SCRTEXT_S>KompArt</SCRTEXT_S>
+     <SCRTEXT_M>Komponentenart</SCRTEXT_M>
+     <SCRTEXT_L>Komponentenart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ明細の組成タイプ</DDTEXT>
+     <REPTEXT>組成タイプ</REPTEXT>
+     <SCRTEXT_S>組成 Type</SCRTEXT_S>
+     <SCRTEXT_M>組成タイプ</SCRTEXT_M>
+     <SCRTEXT_L>組成タイプ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Componentsoort van formulepositie</DDTEXT>
+     <REPTEXT>Componentsoort</REPTEXT>
+     <SCRTEXT_S>Comp.soort</SCRTEXT_S>
+     <SCRTEXT_M>Componentsoort</SCRTEXT_M>
+     <SCRTEXT_L>Componentsoort</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de componente de posición de campo</DDTEXT>
+     <REPTEXT>Cl.componente</REPTEXT>
+     <SCRTEXT_S>ClComp</SCRTEXT_S>
+     <SCRTEXT_M>Cl.componente</SCRTEXT_M>
+     <SCRTEXT_L>Cl.componente</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

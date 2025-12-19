@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_QUANT_UP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/VPCOE/RCP_DECFLOAT_34</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Formula Item: Quantity for Upper Limit</DDTEXT>
+    <REPTEXT>Upper Limit</REPTEXT>
+    <SCRTEXT_S>Upper</SCRTEXT_S>
+    <SCRTEXT_M>Upper Limit</SCRTEXT_M>
+    <SCRTEXT_L>Upper Limit</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Formelposition: Menge für Obergrenze</DDTEXT>
+     <REPTEXT>Obergrenze</REPTEXT>
+     <SCRTEXT_S>Obergrenze</SCRTEXT_S>
+     <SCRTEXT_M>Obergrenze</SCRTEXT_M>
+     <SCRTEXT_L>Obergrenze</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ明細: 上限の数量</DDTEXT>
+     <REPTEXT>上限</REPTEXT>
+     <SCRTEXT_S>上限</SCRTEXT_S>
+     <SCRTEXT_M>上限</SCRTEXT_M>
+     <SCRTEXT_L>上限</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Formulepositie: hoeveelheid voor bovengrens</DDTEXT>
+     <REPTEXT>Bovengrens</REPTEXT>
+     <SCRTEXT_S>Bovengrens</SCRTEXT_S>
+     <SCRTEXT_M>Bovengrens</SCRTEXT_M>
+     <SCRTEXT_L>Bovengrens</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Posición fórmula: Cantidad p.límite superior</DDTEXT>
+     <REPTEXT>Lím.superior</REPTEXT>
+     <SCRTEXT_S>Lím.sup.</SCRTEXT_S>
+     <SCRTEXT_M>Lím.superior</SCRTEXT_M>
+     <SCRTEXT_L>Lím.superior</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

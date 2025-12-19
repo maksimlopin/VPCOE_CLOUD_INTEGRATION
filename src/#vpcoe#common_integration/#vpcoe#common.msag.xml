@@ -1,0 +1,1881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/VPCOE/COMMON</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal error; contact your system administrator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Payload was not found for the API &amp;1 Session ID/Item &amp;2/&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Token was not received. Please check RFC connection for oAuth</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Payload was not send for the API &amp;1 Session Id/Item &amp;2/&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Select at least one entry.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Select only one entry.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Bal Log not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Deletion cancelled.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Data Base &apos;/vpcoe/jsn_cloud&apos; can&apos;t be update.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Process was started with Run ID - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Start to Processs Package - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Start process to send data for package - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 has no data!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Background mode is not supported in current release</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>There is no any data according to the selection criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>There are Customers marked for deletion. Deleteion is not supported now</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Customer IDs were not found. Customer Data will be not send</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>There is no any deleted data according to the selection criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Company Code is mandatory for futher process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please select at least one Variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Please specify Material Document Year and Month for Initial Upload</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Delta Load cannot be performed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Current period is not closed. Process terminated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Run Id &amp;1 was recieved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Status &amp;1 was posted for Run Id &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Please specify Year and Month</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Please specify correct Month ( 1 - 12 )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Please select at least one service</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Please select type of API to be triggered.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>The number of running processes should not exceed 5.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>The package size should not exceed 1000.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Restrict your selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Enter a special stock indicator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Automatic Mode is not supported yet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Too many payloads ( count = &amp;1 ). Please specify selection criterias</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Total number of records sent successfully - &amp;1 records</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Total number of records sent unsuccessfully - &amp;1 records</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>A total of &amp;1 will be processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Process failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Number of entries send successfully - &amp;1 entries</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>&amp;1 : &amp;2 - &amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Total number of records were sent -  &amp;1 records</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>There is no address for plant number - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Status: &amp;1 - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Path prefix is not customized for: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Select at least one type of document to be send</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Execution completed with &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Failed to create API client &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Failed to create OAuth client &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>OAuth client in RFC destination &amp;1 is not configured</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Delta load is only possible if an initial load was successfully completed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>&amp;1 BOMs selected for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 BOMs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>&amp;1 specifications selected for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 specifications</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>&amp;1 recipes selected for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 recipes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Manual Mode can not be executed in background</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Check file(s) &amp;1 &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Background mode is not supported for download mode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Please specify the name of the target file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Only first part of the entries will be displayed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Current month is still not ended. Continue?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Notification Recipients customizing table not configured.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>E-mail for user &amp;1 not filled.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Data was uploaded to: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Customers marked for Deletion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Customers processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>The process was interrupted. Current month is still not ended.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Start of Process for Deleted Suppliers</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Please select Previous Selection Id</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Retrieving of &amp;1 data failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Data from Material Document Report was not found (DB /VPCOE/BILLDI)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Material Documents were not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Data from Delivery Report was not found (DB /VPCOE/BILLDI)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>No billing documents found for &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>No Supplier Invoices found for &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Negative stock was filtered out</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>An error occurred while retrieving BOMs for material &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Alternative not found for material &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Incorrect parameter combination for material &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Material Does Not Exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>No authorization (bill of material)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>There is no bill of materials for material &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Material &amp;1 not maintained in plant.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Bill of &amp;1 material does not exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Conversion error (units of measure) for material &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Not all entries were sent. Check the log</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>No free batch work processes available, check your settings</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Delivery:</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>Too many payloads ( count = &amp;1 ). Please specify selection criterias</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Deletion canceled.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>The deletion was successful.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>SUMA Object Id is not maintained for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>===============================PFM=======================================</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Company Code is mandatory for futher process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Please select at least one Variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Please specify Material Document Year and Month for Initial Upload</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Delta Load cannot be performed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Current period is not closed. Process terminated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>There is no any data according to the selection criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Run Id &amp;1 was recieved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Status &amp;1 was posted for Run Id &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Please specify Year and Month</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Please specify correct Month ( 1 - 12 )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Restrict you selection criteria to have less amount.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>With current selection &amp;1 entries were found for &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Start to process &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Quantity cannot be converted from &amp;1 into &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Field &amp;1 only allows single value selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Path prefix is not customized for: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Start to Processs Package - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>The number of running processes should not exceed 5.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>The package size should not exceed 1000.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>&amp;1 additional items was extracted for &amp;2 Packaging Compositions</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Path prefix for &amp;1 RFC connection was not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>The links in &amp;1 the table and in the &amp;2 RFC connection are different.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Please check the path prefixes and make sure they are the same.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>===== Messages for EHSSUB_PROXY =========================================</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>No selection of substances defined by hit list (group &amp;1 and entry &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Remote table read failed (table &amp;1, exception &amp;2); check RFC connection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Specified hit list group (&amp;1) for selection not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Specified hit list group (&amp;1) for selection is not unique (&amp;2 entries)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Internal number cannot be determined.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>Internal number cannot be checked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>Requirement conversion not found for stock segment &amp;2, seg. strategy &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>SUMA API is in use</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>J</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/VPCOE/COMMON</ARBGB>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal error; contact your system administrator</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Payload was not found for the API &amp;1 Session ID/Item &amp;2/&amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Token was not received. Please check RFC connection for oAuth</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Payload was not send for the API &amp;1 Session Id/Item &amp;2/&amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Select at least one entry.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Select only one entry.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Bal Log not found.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Deletion cancelled.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Data Base &apos;/vpcoe/jsn_cloud&apos; can&apos;t be update.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Process was started with Run ID - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Start to Processs Package - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Start process to send data for package - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 has no data!</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Background mode is not supported in current release</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>There is no any data according to the selection criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>There are Customers marked for deletion. Deleteion is not supported now</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Customer IDs were not found. Customer Data will be not send</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>There is no any deleted data according to the selection criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Company Code is mandatory for futher process</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please select at least one Variant</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Please specify Material Document Year and Month for Initial Upload</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Delta Load cannot be performed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Current period is not closed. Process terminated</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Run Id &amp;1 was recieved</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Status &amp;1 was posted for Run Id &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Please specify Year and Month</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Please specify correct Month ( 1 - 12 )</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Please select at least one service</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Please select type of API to be triggered.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>The number of running processes should not exceed 5.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>The package size should not exceed 1000.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Restrict your selection</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Enter a special stock indicator</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Automatic Mode is not supported yet</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Too many payloads ( count = &amp;1 ). Please specify selection criterias</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Total number of records sent successfully - &amp;1 records</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Total number of records sent unsuccessfully - &amp;1 records</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>A total of &amp;1 will be processed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Process failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Number of entries send successfully - &amp;1 entries</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>&amp;1 : &amp;2 - &amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Total number of records were sent -  &amp;1 records</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>There is no address for plant number - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Status: &amp;1 - &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Path prefix is not customized for: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Missing BAdI implementation BADI_SURDP_UPH_CUSTOM</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Execution completed with &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Failed to create API client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Failed to create OAuth client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>OAuth client in RFC destination &amp;1 is not configured</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Delta load is only possible if an initial load was successfully completed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>&amp;1 BOMs selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 BOMs</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>&amp;1 specifications selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 specifications</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&amp;1 recipes selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 recipes</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Manual Mode can not be executed in background</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Check file(s) &amp;1 &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Background mode is not supported for download mode</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Please specify the name of the target file</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Only first part of the entries will be displayed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Current month is still not ended. Continue?</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Notification Recipients customizing table not configured.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>E-mail for user &amp;1 not filled.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Data was uploaded to: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Customers marked for Deletion</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Customers processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>The process was interrupted. Current month is still not ended.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Start of Process for Deleted Suppliers</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Please select Previous Selection Id</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Retrieving of &amp;1 data failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>===============================PFM=======================================</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Company Code is mandatory for futher process</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Please select at least one Variant</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Please specify Material Document Year and Month for Initial Upload</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Delta Load cannot be performed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Current period is not closed. Process terminated</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>There is no any data according to the selection criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Run Id &amp;1 was recieved</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Status &amp;1 was posted for Run Id &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Please specify Year and Month</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Please specify correct Month ( 1 - 12 )</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Restrict you selection criteria to have less amount.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>With current selection &amp;1 entries were found for &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Start to process &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Quantity cannot be converted from &amp;1 into &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Field &amp;1 only allows single value selection</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Path prefix is not customized for: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Start to Processs Package - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>The number of running processes should not exceed 5.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>The package size should not exceed 1000.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>&amp;1 additional items was extracted for &amp;2 Packaging Compositions</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>200</MSGNR>
+     <TEXT>===== Messages for EHSSUB_PROXY =========================================</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>201</MSGNR>
+     <TEXT>No selection of substances defined by hit list (group &amp;1 and entry &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>202</MSGNR>
+     <TEXT>Remote table read failed (table &amp;1, exception &amp;2); check RFC connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>203</MSGNR>
+     <TEXT>Specified hit list group (&amp;1) for selection not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>204</MSGNR>
+     <TEXT>Specified hit list group (&amp;1) for selection is not unique (&amp;2 entries)</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>205</MSGNR>
+     <TEXT>Internal number cannot be determined.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>206</MSGNR>
+     <TEXT>Internal number cannot be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>207</MSGNR>
+     <TEXT>Requirement conversion not found for stock segment &amp;2, seg. strategy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal error; contact your system administrator</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Payload was not found for the API &amp;1 Session ID/Item &amp;2/&amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Token was not received. Please check RFC connection for oAuth</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Payload was not send for the API &amp;1 Session Id/Item &amp;2/&amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Select at least one entry.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Select only one entry.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Bal Log not found.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Deletion cancelled.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Data Base &apos;/vpcoe/jsn_cloud&apos; can&apos;t be update.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Process was started with Run ID - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Start to Processs Package - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Start process to send data for package - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 has no data!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Background mode is not supported in current release</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>There is no any data according to the selection criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>There are Customers marked for deletion. Deleteion is not supported now</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Customer IDs were not found. Customer Data will be not send</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>There is no any deleted data according to the selection criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Company Code is mandatory for futher process</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please select at least one Variant</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Please specify Material Document Year and Month for Initial Upload</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Delta Load cannot be performed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Current period is not closed. Process terminated</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Run Id &amp;1 was recieved</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Status &amp;1 was posted for Run Id &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Please specify Year and Month</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Please specify correct Month ( 1 - 12 )</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Please select at least one service</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Please select type of API to be triggered.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>The number of running processes should not exceed 5.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>The package size should not exceed 1000.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Restrict your selection</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Enter a special stock indicator</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Automatic Mode is not supported yet</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Too many payloads ( count = &amp;1 ). Please specify selection criterias</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Total number of records sent successfully - &amp;1 records</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Total number of records sent unsuccessfully - &amp;1 records</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>A total of &amp;1 will be processed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Process failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Number of entries send successfully - &amp;1 entries</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>&amp;1 : &amp;2 - &amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Total number of records were sent -  &amp;1 records</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>There is no address for plant number - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Status: &amp;1 - &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Path prefix is not customized for: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Missing BAdI implementation BADI_SURDP_UPH_CUSTOM</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Execution completed with &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Failed to create API client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Failed to create OAuth client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>OAuth client in RFC destination &amp;1 is not configured</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Delta load is only possible if an initial load was successfully completed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>&amp;1 BOMs selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 BOMs</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>&amp;1 specifications selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 specifications</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&amp;1 recipes selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 recipes</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Manual Mode can not be executed in background</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Check file(s) &amp;1 &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Background mode is not supported for download mode</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Please specify the name of the target file</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Only first part of the entries will be displayed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Current month is still not ended. Continue?</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Notification Recipients customizing table not configured.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>E-mail for user &amp;1 not filled.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Data was uploaded to: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Customers marked for Deletion</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Customers processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>The process was interrupted. Current month is still not ended.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Start of Process for Deleted Suppliers</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Please select Previous Selection Id</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Retrieving of &amp;1 data failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>===============================PFM=======================================</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Company Code is mandatory for futher process</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Please select at least one Variant</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Please specify Material Document Year and Month for Initial Upload</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Delta Load cannot be performed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Current period is not closed. Process terminated</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>There is no any data according to the selection criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Run Id &amp;1 was recieved</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Status &amp;1 was posted for Run Id &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Please specify Year and Month</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Please specify correct Month ( 1 - 12 )</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Restrict you selection criteria to have less amount.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>With current selection &amp;1 entries were found for &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Start to process &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Quantity cannot be converted from &amp;1 into &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Field &amp;1 only allows single value selection</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Path prefix is not customized for: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Start to Processs Package - &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>The number of running processes should not exceed 5.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>The package size should not exceed 1000.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>&amp;1 additional items was extracted for &amp;2 Packaging Compositions</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>200</MSGNR>
+     <TEXT>===== Messages for EHSSUB_PROXY =========================================</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>201</MSGNR>
+     <TEXT>No selection of substances defined by hit list (group &amp;1 and entry &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>202</MSGNR>
+     <TEXT>Remote table read failed (table &amp;1, exception &amp;2); check RFC connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>203</MSGNR>
+     <TEXT>Specified hit list group (&amp;1) for selection not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>204</MSGNR>
+     <TEXT>Specified hit list group (&amp;1) for selection is not unique (&amp;2 entries)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>205</MSGNR>
+     <TEXT>Internal number cannot be determined.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>206</MSGNR>
+     <TEXT>Internal number cannot be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>207</MSGNR>
+     <TEXT>Requirement conversion not found for stock segment &amp;2, seg. strategy &amp;1</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

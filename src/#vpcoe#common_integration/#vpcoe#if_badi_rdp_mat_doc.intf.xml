@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/VPCOE/IF_BADI_RDP_MAT_DOC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for BAdI: /VPCOE/ENH_RDP_MATERIAL_DOC</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFINE_COUNTRIES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adjust data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFINE_COUNTRIES</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Adjust data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFINE_COUNTRIES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Adjust data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DEFINE_COUNTRIES</CMPNAME>
+     <SCONAME>IV_CODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material Documents Variants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEFINE_COUNTRIES</CMPNAME>
+     <SCONAME>IV_CODE</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Material Documents Variants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEFINE_COUNTRIES</CMPNAME>
+     <SCONAME>IV_CODE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Material Documents Variants</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

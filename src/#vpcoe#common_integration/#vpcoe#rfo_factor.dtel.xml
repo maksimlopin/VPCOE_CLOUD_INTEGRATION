@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_FACTOR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/VPCOE/RCP_DECFLOAT_34</DOMNAME>
+    <HEADLEN>22</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Formula Overrun Factor in Percent</DDTEXT>
+    <REPTEXT>Overrun Factor [%]</REPTEXT>
+    <SCRTEXT_S>Overrun[%]</SCRTEXT_S>
+    <SCRTEXT_M>Overrun [%]</SCRTEXT_M>
+    <SCRTEXT_L>Overrun Factor [%]</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Formel-Aufschlagfaktor in Prozent</DDTEXT>
+     <REPTEXT>Aufschlagfaktor  [%]</REPTEXT>
+     <SCRTEXT_S>Aufschl[%]</SCRTEXT_S>
+     <SCRTEXT_M>Aufschlag [%]</SCRTEXT_M>
+     <SCRTEXT_L>Aufschlagfaktor  [%]</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ: 超過要因 (%)</DDTEXT>
+     <REPTEXT>超過要因 [%]</REPTEXT>
+     <SCRTEXT_S>超過 [%]</SCRTEXT_S>
+     <SCRTEXT_M>超過 [%]</SCRTEXT_M>
+     <SCRTEXT_L>超過要因 [%]</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Formuleopslagfactor in procent</DDTEXT>
+     <REPTEXT>Opslagfactor [%]</REPTEXT>
+     <SCRTEXT_S>Opslag [%]</SCRTEXT_S>
+     <SCRTEXT_M>Opslag [%]</SCRTEXT_M>
+     <SCRTEXT_L>Opslagfactor [%]</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Factor de aumento de fórmula en porcentaje</DDTEXT>
+     <REPTEXT>Factor aumento [%]</REPTEXT>
+     <SCRTEXT_S>FactAum[%]</SCRTEXT_S>
+     <SCRTEXT_M>Fact.aum.[%]</SCRTEXT_M>
+     <SCRTEXT_L>Factor aumento [%]</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

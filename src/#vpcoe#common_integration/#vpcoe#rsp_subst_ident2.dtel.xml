@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RSP_SUBST_IDENT2</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TEXT132</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>Specification Description 2</DDTEXT>
+    <REPTEXT>Specification Description 2</REPTEXT>
+    <SCRTEXT_S>Desc. 2</SCRTEXT_S>
+    <SCRTEXT_M>Description 2</SCRTEXT_M>
+    <SCRTEXT_L>Specification Description 2</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Beschreibung 2 der Spezifikation</DDTEXT>
+     <REPTEXT>Beschreibung 2 der Spezifikation</REPTEXT>
+     <SCRTEXT_S>Beschr. 2</SCRTEXT_S>
+     <SCRTEXT_M>Beschreibung 2</SCRTEXT_M>
+     <SCRTEXT_L>Beschreib. 2 Spezifikation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>スペックテキスト 2</DDTEXT>
+     <REPTEXT>スペックテキスト 2</REPTEXT>
+     <SCRTEXT_S>テキスト 2</SCRTEXT_S>
+     <SCRTEXT_M>テキスト 2</SCRTEXT_M>
+     <SCRTEXT_L>スペックテキスト 2</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Omschrijving 2 van specificatie</DDTEXT>
+     <REPTEXT>Omschrijving 2 van specificatie</REPTEXT>
+     <SCRTEXT_S>Omschr. 2</SCRTEXT_S>
+     <SCRTEXT_M>Omschrijving 2</SCRTEXT_M>
+     <SCRTEXT_L>Omschrijving 2 specificatie</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Descripción 2 de especificación</DDTEXT>
+     <REPTEXT>Descripción 2 de especificación</REPTEXT>
+     <SCRTEXT_S>Descrip.2</SCRTEXT_S>
+     <SCRTEXT_M>Descripción 2</SCRTEXT_M>
+     <SCRTEXT_L>Descripc.2 especificación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

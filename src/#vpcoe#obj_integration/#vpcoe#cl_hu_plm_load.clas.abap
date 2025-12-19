@@ -1,0 +1,23 @@
+class /VPCOE/CL_HU_PLM_LOAD definition
+  public
+  inheriting from /VPCOE/CL_UPH_REPORT_BASE
+  final
+  create public .
+
+public section.
+
+  interfaces /VPCOE/IF_HU_PLM_LOAD .
+
+  aliases DERIVE_RFC_TARGET_DESTINATION
+    for /VPCOE/IF_UPH_REPORT~DERIVE_RFC_TARGET_DESTINATION .
+  aliases DERIVE_UPLOAD_MODE
+    for /VPCOE/IF_UPH_REPORT~DERIVE_UPLOAD_MODE .
+  aliases EXECUTE_UPLOAD
+    for /VPCOE/IF_UPH_REPORT~EXECUTE_UPLOAD .
+protected section.
+ENDCLASS.
+
+
+
+CLASS /VPCOE/CL_HU_PLM_LOAD IMPLEMENTATION.
+ENDCLASS.

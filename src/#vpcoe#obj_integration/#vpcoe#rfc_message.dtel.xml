@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFC_MESSAGE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR128</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>EHS: Exception Message for RFC Call</DDTEXT>
+    <REPTEXT>Exception Message for RFC Call</REPTEXT>
+    <SCRTEXT_S>RFC Msg</SCRTEXT_S>
+    <SCRTEXT_M>RFC Message</SCRTEXT_M>
+    <SCRTEXT_L>RFC Message</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>EHS: Exception Message for RFC Call</DDTEXT>
+     <REPTEXT>Exception Message for RFC Call</REPTEXT>
+     <SCRTEXT_S>RFC Msg</SCRTEXT_S>
+     <SCRTEXT_M>RFC Message</SCRTEXT_M>
+     <SCRTEXT_L>RFC Message</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>EHS: Exception Message for RFC Call</DDTEXT>
+     <REPTEXT>Exception Message for RFC Call</REPTEXT>
+     <SCRTEXT_S>RFC Msg</SCRTEXT_S>
+     <SCRTEXT_M>RFC Message</SCRTEXT_M>
+     <SCRTEXT_L>RFC Message</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

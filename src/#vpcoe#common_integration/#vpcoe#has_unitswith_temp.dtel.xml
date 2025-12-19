@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/HAS_UNITSWITH_TEMP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Has unitswith temperature spec</DDTEXT>
+    <REPTEXT>Has unitswith temperature spec</REPTEXT>
+    <SCRTEXT_S>Spec.Temp</SCRTEXT_S>
+    <SCRTEXT_M>Unit. temperature</SCRTEXT_M>
+    <SCRTEXT_L>Has unitswith temperature spec</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>Has unitswith temperature spec</DDTEXT>
+     <REPTEXT>Has unitswith temperature spec</REPTEXT>
+     <SCRTEXT_S>Spec.Temp</SCRTEXT_S>
+     <SCRTEXT_M>Unit. temperature</SCRTEXT_M>
+     <SCRTEXT_L>Has unitswith temperature spec</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Has unitswith temperature spec</DDTEXT>
+     <REPTEXT>Has unitswith temperature spec</REPTEXT>
+     <SCRTEXT_S>Spec.Temp</SCRTEXT_S>
+     <SCRTEXT_M>Unit. temperature</SCRTEXT_M>
+     <SCRTEXT_L>Has unitswith temperature spec</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

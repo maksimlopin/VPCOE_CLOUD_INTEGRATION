@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/VPCOE/IF_PCKF_MATCLASS_DAC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Material classification data accessor</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_CHANGE_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if a change number already exists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_CHANGE_NUMBER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Check if a change number already exists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_CHANGE_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Check if a change number already exists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_CHANGE_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a change number used for material classification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_CHANGE_NUMBER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Create a change number used for material classification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_CHANGE_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create a change number used for material classification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_CLASSIFICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reads material classification values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_CLASSIFICATION</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Reads material classification values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_CLASSIFICATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Reads material classification values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_CLASSIFICATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates or updates material classification values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_CLASSIFICATION</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Creates or updates material classification values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_CLASSIFICATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Creates or updates material classification values</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

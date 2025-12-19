@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_GUID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SYSUUID</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>32</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Formula GUID</DDTEXT>
+    <REPTEXT>Formula GUID</REPTEXT>
+    <SCRTEXT_S>Frml GUID</SCRTEXT_S>
+    <SCRTEXT_M>Formula GUID</SCRTEXT_M>
+    <SCRTEXT_L>Formula GUID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Formel-GUID</DDTEXT>
+     <REPTEXT>Formel-GUID</REPTEXT>
+     <SCRTEXT_S>FormelGUID</SCRTEXT_S>
+     <SCRTEXT_M>Formel-GUID</SCRTEXT_M>
+     <SCRTEXT_L>Formel-GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ GUID</DDTEXT>
+     <REPTEXT>フォーミュラ GUID</REPTEXT>
+     <SCRTEXT_S>Frml GUID</SCRTEXT_S>
+     <SCRTEXT_M>Formula GUID</SCRTEXT_M>
+     <SCRTEXT_L>フォーミュラ GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Formule-GUID</DDTEXT>
+     <REPTEXT>Formule-GUID</REPTEXT>
+     <SCRTEXT_S>FormelGUID</SCRTEXT_S>
+     <SCRTEXT_M>Formule-GUID</SCRTEXT_M>
+     <SCRTEXT_L>Formule-GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID único de fórmula</DDTEXT>
+     <REPTEXT>ID único de fórmula</REPTEXT>
+     <SCRTEXT_S>GUID fórm.</SCRTEXT_S>
+     <SCRTEXT_M>GUID fórmula</SCRTEXT_M>
+     <SCRTEXT_L>ID único de fórmula</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

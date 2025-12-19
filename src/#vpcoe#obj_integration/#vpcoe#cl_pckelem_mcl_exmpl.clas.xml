@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_PCKELEM_MCL_EXMPL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Example entity processor for Material Classification replctn</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>IO_MAT_CLAS_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrapper for Material Classification Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>IO_MAT_CLAS_DATA</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Wrapper for Material Classification Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>IO_MAT_CLAS_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Wrapper for Material Classification Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>IO_MAT_CLAS_VERSION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrapper for Material Classification Version</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>IO_MAT_CLAS_VERSION</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Wrapper for Material Classification Version</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>IO_MAT_CLAS_VERSION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Wrapper for Material Classification Version</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>RT_PACK_FRACT_ENTITY_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>RT_PACK_FRACT_ENTITY_DATA</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_FRACTION_DATA</CMPNAME>
+     <SCONAME>RT_PACK_FRACT_ENTITY_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

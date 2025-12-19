@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_UPH_WRAP_BOM_HDR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Wrapper for BOM Header</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_ITEMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_ITEMS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_ITEMS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_HEADER_MATERIAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Start Material Display for BOM Explosions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_HEADER_MATERIAL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Start Material Display for BOM Explosions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_HEADER_MATERIAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Start Material Display for BOM Explosions</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IR_ITEMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IR_ITEMS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IR_ITEMS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_HEADER_MATERIAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Start Material Display for BOM Explosions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_HEADER_MATERIAL</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Start Material Display for BOM Explosions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_HEADER_MATERIAL</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Start Material Display for BOM Explosions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ITEMS</CMPNAME>
+     <SCONAME>RV_ITEMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ITEMS</CMPNAME>
+     <SCONAME>RV_ITEMS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ITEMS</CMPNAME>
+     <SCONAME>RV_ITEMS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ITEMS</CMPNAME>
+     <SCONAME>IR_ITEMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ITEMS</CMPNAME>
+     <SCONAME>IR_ITEMS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ITEMS</CMPNAME>
+     <SCONAME>IR_ITEMS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of BOM Item Wrappers</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

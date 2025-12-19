@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/VPCOE/IF_UPH_ENTITY_DATA</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for Upload Entity Data</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_MARKED_DELETED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Record if marked deleted</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_MARKED_DELETED</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Record if marked deleted</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_MARKED_DELETED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Record if marked deleted</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TO_CONSOLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write to console if needed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TO_CONSOLE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Write to console if needed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TO_CONSOLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Write to console if needed</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

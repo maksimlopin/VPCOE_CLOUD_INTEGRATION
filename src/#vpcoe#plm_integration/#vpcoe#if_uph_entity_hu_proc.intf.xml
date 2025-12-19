@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/VPCOE/IF_UPH_ENTITY_HU_PROC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for Material Class Upload Entity processing</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_HU_DATA</CMPNAME>
+     <SCONAME>IT_HANDLING_UNITS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Units For Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_HU_DATA</CMPNAME>
+     <SCONAME>IT_HANDLING_UNITS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Handling Units For Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_HU_DATA</CMPNAME>
+     <SCONAME>IT_HANDLING_UNITS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Units For Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_HU_DATA</CMPNAME>
+     <SCONAME>RT_ENTITY_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_HU_DATA</CMPNAME>
+     <SCONAME>RT_ENTITY_DATA</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_HU_DATA</CMPNAME>
+     <SCONAME>RT_ENTITY_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

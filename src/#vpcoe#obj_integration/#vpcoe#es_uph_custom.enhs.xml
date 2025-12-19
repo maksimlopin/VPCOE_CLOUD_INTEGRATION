@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>Enhancement Spot</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>/VPCOE/BADI_UPH_CUSTOM</BADI_NAME>
+     <INTERFACE_NAME>/VPCOE/IF_UPH_CUSTOM</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>S</CONTEXT_MODE>
+     <BADI_SHORTTEXT>BADI for custom configuration of the RDP Upload</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>0050568B293A1EEC91D65404166598F5</BADI_SHORTTEXT_ID>
+     <SAMPLE_IMPLS>
+      <CLASSNAME>/VPCOE/CL_EXMPL_UPH_CUSTOM</CLASSNAME>
+     </SAMPLE_IMPLS>
+     <IMG_DOCU_ID>/VPCOE/BADI_UPH_CUSTOM</IMG_DOCU_ID>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>0050568B293A1EEC91D646086BA2D8D8</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050568B293A1EEC91D646086BA2D8D8</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>026</LENGTH>
+       <TEXT>Enhancement Spot</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>0050568B293A1EEC91D65404166598F5</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050568B293A1EEC91D65404166598F5</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>071</LENGTH>
+       <TEXT>BADI for custom configuration of the RDP Upload</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>/VPCOE/ES_UPH_CUSTOM</OBJ_NAME>
+     <CONCEPT>0050568B293A1EEC91D646086BA2D8D8</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>/VPCOE/ES_UPH_CUSTOM</OBJ_NAME>
+     <CONCEPT>0050568B293A1EEC91D65404166598F5</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

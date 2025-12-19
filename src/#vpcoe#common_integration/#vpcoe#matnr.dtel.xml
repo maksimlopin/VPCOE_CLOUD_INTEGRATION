@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/MATNR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>MATNR</DOMNAME>
+    <MEMORYID>MAT</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Material Number</DDTEXT>
+    <REPTEXT>Material</REPTEXT>
+    <SCRTEXT_S>Material</SCRTEXT_S>
+    <SCRTEXT_M>Material</SCRTEXT_M>
+    <SCRTEXT_L>Material</SCRTEXT_L>
+    <APPLCLASS>MG</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>/PLMB/MAT_CMP_MATERIAL_NO</SHLPNAME>
+    <SHLPFIELD>MATNR</SHLPFIELD>
+    <DEFFDNAME>MATERIAL</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Materialnummer</DDTEXT>
+     <REPTEXT>Material</REPTEXT>
+     <SCRTEXT_S>Material</SCRTEXT_S>
+     <SCRTEXT_M>Material</SCRTEXT_M>
+     <SCRTEXT_L>Material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>品目コード</DDTEXT>
+     <REPTEXT>品目</REPTEXT>
+     <SCRTEXT_S>品目</SCRTEXT_S>
+     <SCRTEXT_M>品目</SCRTEXT_M>
+     <SCRTEXT_L>品目</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Artikelnummer</DDTEXT>
+     <REPTEXT>Artikel</REPTEXT>
+     <SCRTEXT_S>Artikel</SCRTEXT_S>
+     <SCRTEXT_M>Artikel</SCRTEXT_M>
+     <SCRTEXT_L>Artikel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número material</DDTEXT>
+     <REPTEXT>Material</REPTEXT>
+     <SCRTEXT_S>Material</SCRTEXT_S>
+     <SCRTEXT_M>Material</SCRTEXT_M>
+     <SCRTEXT_L>Material</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

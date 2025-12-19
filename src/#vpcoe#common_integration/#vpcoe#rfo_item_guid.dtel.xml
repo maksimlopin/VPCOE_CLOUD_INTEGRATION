@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_ITEM_GUID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SYSUUID</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>32</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Formula Item GUID</DDTEXT>
+    <REPTEXT>Formula Item GUID</REPTEXT>
+    <SCRTEXT_S>Item GUID</SCRTEXT_S>
+    <SCRTEXT_M>Frml Item GUID</SCRTEXT_M>
+    <SCRTEXT_L>Formula Item GUID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Formelpositions-GUID</DDTEXT>
+     <REPTEXT>Formelpositions-GUID</REPTEXT>
+     <SCRTEXT_S>Pos.-GUID</SCRTEXT_S>
+     <SCRTEXT_M>Formelpos.-GUID</SCRTEXT_M>
+     <SCRTEXT_L>Formelpositions-GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ明細 GUID</DDTEXT>
+     <REPTEXT>フォーミュラ明細 GUID</REPTEXT>
+     <SCRTEXT_S>明細 GUID</SCRTEXT_S>
+     <SCRTEXT_M>Frml 明細 GUID</SCRTEXT_M>
+     <SCRTEXT_L>Formula 明細 GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Formulepositie-GUID</DDTEXT>
+     <REPTEXT>Formulepositie-GUID</REPTEXT>
+     <SCRTEXT_S>Pos.-GUID</SCRTEXT_S>
+     <SCRTEXT_M>Form.pos.-GUID</SCRTEXT_M>
+     <SCRTEXT_L>Formulepositie-GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>GUID de posición de fórmula</DDTEXT>
+     <REPTEXT>GUID de posición de fórmula</REPTEXT>
+     <SCRTEXT_S>GUID pos.</SCRTEXT_S>
+     <SCRTEXT_M>GUID pos.fórm.</SCRTEXT_M>
+     <SCRTEXT_L>GUID pos.fórmula</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

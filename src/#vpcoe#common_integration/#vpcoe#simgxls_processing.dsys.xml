@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/VPCOE/XLS_PROCESSING</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00051</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/VPCOE/XLS_PROCESSING</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Use</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The Business Add-In (BAdI)  /VPCOE/XLS_PROCESSING that is assigned to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Enhancement Spot /VPCOE/ADJUST_API_TO_CLOUD, this allows to override the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>logic for saving the Excel file. With this BADI, you can add your own</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>logic for saving files both in the background and in real time, or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>completely change it. It also provides the option to change the save</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>path of the file, if necessary.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This BAdI is used in the &quot;/VPCOE/CL_XLS_HANDLER&quot; class in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;SAVE_XLS_FILE&quot; method.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Excel file download is available in the following reports:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/batch_to_rdp                : Send Batch data to the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/configuration_to_rdp    : Send Configuration data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/customer_to_rdp          : Send Customer data to the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/delivery_to_rdp            : Send Delivery data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/incoterms_to_rdp         : Send Incoterms data to the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/inventory_to_rdp          : Send Inventory data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/mat_doc_to_rdp           : Send Material data to the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/org_data_to_rdp           : Send Organization data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/product_to_rdp             : Send Product  data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· /vpcoe/supplier_to_rdp            : Send Supplier data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Requirement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For more information about the standard settings for this BAdI see the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Spot Element Definitions tab in the BAdI Builder (transaction SE18).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>BAdi Methods</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI definition is active in the Integration accelerator package. It</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contains the following method from interface /VPCOE/IF_XLS_PROCESSING:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>· ADJUST_FILE_SAVING</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>As described above, this method allows to rewrite the logic for saving</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the Excel file or change the path that was specified on the selection</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>screen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The method uses the following parameters:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·  IV_BACKGROUND : An import parameter that is used to determine in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which mode the file will be saved</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·  IO_LOG : An import parameter for writing messages to the LOG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·  EV_SKIP_STANDARD_PROCESS : The export parameter. If the value of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parameter is &quot;true&quot;, then we skip the standard implementation of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;SAVE_XLS_FILE&quot; method.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·  CV_FILE_PATH : Changing parameter. This parameter is passed the path</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>where the file is saved, as specified in the selection screen. Since the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type of this parameter is &quot;Change&quot;, you can change it.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·  CT_XLS_DATA : Change parameter. This is a table that stores all the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information of an Excel file in the Binary type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>BAdi Implementations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI implementation must be defined by the user and is not provided</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>by SAP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

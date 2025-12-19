@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_UPH_PROC_BASE_HUOB</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>OBSOLETE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>test</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_PARAMETERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Selection screen input structure for BOM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_CALCULATED_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>test</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DELIVERY_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RDP Integration: Deliveries Items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_HANDLING_UNITS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table For Handling Units</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ITEMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>test</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_PROD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Comment</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_HU</CMPNAME>
+     <SCONAME>EV_HANDLING_UNIT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Handling Unit Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_HU</CMPNAME>
+     <SCONAME>IV_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Handling Unit Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PACKAGING_COMPOSITION</CMPNAME>
+     <SCONAME>ES_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>JSON For Packaging Compositions</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

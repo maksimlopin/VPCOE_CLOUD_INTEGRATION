@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_ITEM_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/VPCOE/RFO_ITEM_TYPE_D</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Formula Item Is Input or Output Item</DDTEXT>
+    <REPTEXT>Input/Output</REPTEXT>
+    <SCRTEXT_S>In-/Output</SCRTEXT_S>
+    <SCRTEXT_M>Input/Output</SCRTEXT_M>
+    <SCRTEXT_L>Input/Output</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Formelposition ist Einsatz- oder Ausbeuteposition</DDTEXT>
+     <REPTEXT>Eins./Ausbeute</REPTEXT>
+     <SCRTEXT_S>Eins./Ausb</SCRTEXT_S>
+     <SCRTEXT_M>Eins./Ausbeute</SCRTEXT_M>
+     <SCRTEXT_L>Einsatz/Ausbeute</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ明細は投入または生成明細</DDTEXT>
+     <REPTEXT>投入/生成</REPTEXT>
+     <SCRTEXT_S>投入/生成</SCRTEXT_S>
+     <SCRTEXT_M>投入/生成</SCRTEXT_M>
+     <SCRTEXT_L>投入/生成</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Formule is grondstof- of productpositie</DDTEXT>
+     <REPTEXT>Grondst./prod.</REPTEXT>
+     <SCRTEXT_S>Grond/Prod</SCRTEXT_S>
+     <SCRTEXT_M>Grondst./prod.</SCRTEXT_M>
+     <SCRTEXT_L>Grondstof/product</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>La posición de fórmula es de servicio o de rendimiento</DDTEXT>
+     <REPTEXT>Ser./rendim.</REPTEXT>
+     <SCRTEXT_S>Ser./ren.</SCRTEXT_S>
+     <SCRTEXT_M>Ser./rendim.</SCRTEXT_M>
+     <SCRTEXT_L>Servicio/rendim.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

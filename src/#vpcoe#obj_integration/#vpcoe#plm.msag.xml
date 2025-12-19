@@ -1,0 +1,991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/VPCOE/PLM</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages for PLM to RDP data replication</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>No filter criteria are defined for the selection. Do you want to proceed?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Execution completed with &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Missing BAdI implementation /VPCOE/ES_UPH_CUSTOM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter at least one valid &quot;Specification Type&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Enter at least one valid &quot;Specification&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>The group entity does not exist. Choose valid group entry for &quot;Hit List&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter a group entry for &quot;Hit List&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter &quot;Specification Valid From Date&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load started on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load started in test mode on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load completed on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load completed in test mode on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Delta load is only possible if an initial load was successfully completed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>&amp;1 specifications selected for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Transfer to API failed; response code: &amp;1 (&amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Failed to create API client &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Failed to create OAuth client &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>OAuth client in RFC destination &amp;1 is not configured</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error: &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Error detail: &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>&amp;1 entities (&amp;2) transferred</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Enter &quot;Source ID&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 specifications</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Enter &quot;Recipe Valid From Date&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe Type&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe ID&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Enter &quot;RFC Destination&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe Status&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp;1 recipes selected for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 recipes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>&amp;1 entities (Handling Units) transferred</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>No Packaging Composition was found for the material &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>&amp;1 Material Classification versions selected for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 relevant Material Class. versions</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Enter &quot;Validity Date of Mat. Class.&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Specify relevant material classifications in BAdI implementation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Too many selection criteria entered. Reduce the number of criteria.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Deprecated attribute &amp;1 for the entity &amp;2 is used in your implementation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Determine the validity date.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Determine the period from 1 to 6 months.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>&amp;1 Handling Units selected for processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Specification &amp;1: Referenced main pckg. element &amp;2 not found, skipped</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/VPCOE/PLM009</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/PLM009</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>No authorization to run the report &amp;1.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report execution needs the following authorization:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Authorization object S_PROGNAM with fields</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>ACTION = SUBMIT and P_PROGNAM = &amp;1.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>A</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contact your system administrator.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/VPCOE/PLM021</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0024</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00013</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/PLM021</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00024</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>No HTTP client can be created for RFC destination &amp;V1&amp;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>No Specification data can be transferred to RDP API.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contact your system administrator, asking them to verify Oauth</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Configuration SAP S/4HANA Services for Sustainability - Responsible</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Design &amp; Production API&apos;s endpoint.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>(Profile: SURDP_REPL_API) and (Tcode:/oOA2C_CONFIG).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>•Verify that RFC Destination, Oauth Profile: SURDP_REPL_API &amp; OAuth</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Configuration: RDP_REPL_API_INTEG_S4 is setup as described in its</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Configuration Guide. Check the API &amp; Oauth URL endpoints.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>•If necessary, perform the setup described in the RDP Integration</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Configuration Guide for OAUTH Profile: SURDP_REPL_API again.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>•Check for further (error) messages in the application log (Transaction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SLG1) with object SURDP_UPH and sub-object UPLOAD_PUSH</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/VPCOE/PLM022</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00017</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/PLM022</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>OAuth Client, with profile SURDP_REPL_API, could not be created.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>No OAuth Client can be read from RDP_REPL_API.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contact your system administrator asking them to verify SAP S/4HANA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Services for Sustainability - RDP ( Responsible Design &amp; Production )(</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>RFC Destination: RDP_REPL_API &lt;(&gt;&amp;&lt;)&gt; Oauth Profile: SURDP_REPL_API ).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>•Verify the Oauth Configuration setup is as described in its</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Configuration Guide, especially check that the OAuth Client with profile</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SURDP_REPL_API is setup correctly (Transaction OA2C_CONFIG):</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>◦Correct values for OAuth 2.0 Client ID and Client Secret, if necessary</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>◦Correct values for Authorization and Token Endpoint, if necessary</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>◦Client Authentication = Form</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>◦Resource Access Authentication = Header Field</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>◦Selected Grant Type = Client Credentials</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>•If necessary, perform the setup described in the Configuration Guide of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Communication Scenario SURDP_REPL_API again.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>•Check for more (error) messages in the application log (Transaction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SLG1) with object SURDP_UPH and subobject UPLOAD_PUSH.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>J</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <STEXT>Messages for PLM to RDP data replication</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/VPCOE/PLM</ARBGB>
+     <STEXT>Messages for PLM to RDP data replication</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>No filter criteria are defined for the selection. Do you want to proceed?</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Execution completed with &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Missing BAdI implementation /VPCOE/ES_UPH_CUSTOM</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter at least one valid &quot;Specification Type&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Enter at least one valid &quot;Specification&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>The group entity does not exist. Choose valid group entry for &quot;Hit List&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter a group entry for &quot;Hit List&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter &quot;Specification Valid From Date&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load started on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load started in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load completed on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load completed in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Delta load is only possible if an initial load was successfully completed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>&amp;1 specifications selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Transfer to API failed; response code: &amp;1 (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Failed to create API client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Failed to create OAuth client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>OAuth client in RFC destination &amp;1 is not configured</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error: &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Error detail: &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>&amp;1 entities (&amp;2) transferred</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Enter &quot;Source ID&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 specifications</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Enter &quot;Recipe Valid From Date&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe Type&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe ID&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Enter &quot;RFC Destination&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe Status&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp;1 recipes selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 recipes</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>&amp;1 entities (Handling Units) transferred</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>No Packaging Composition was found for the material &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>&amp;1 Material Classification versions selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 relevant Material Class. versions</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Enter &quot;Validity Date of Mat. Class.&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Specify relevant material classifications in BAdI implementation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Too many selection criteria entered. Reduce the number of criteria.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Deprecated attribute &amp;1 for the entity &amp;2 is used in your implementation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Determine the validity date.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Determine the period from 1 to 6 months.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>&amp;1 Handling Units selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>No filter criteria are defined for the selection. Do you want to proceed?</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Execution completed with &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Missing BAdI implementation /VPCOE/ES_UPH_CUSTOM</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter at least one valid &quot;Specification Type&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Enter at least one valid &quot;Specification&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>The group entity does not exist. Choose valid group entry for &quot;Hit List&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter a group entry for &quot;Hit List&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter &quot;Specification Valid From Date&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load started on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load started in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load completed on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Report for data transfer for &amp;3 load completed in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Delta load is only possible if an initial load was successfully completed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>&amp;1 specifications selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Transfer to API failed; response code: &amp;1 (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Failed to create API client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Failed to create OAuth client &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>OAuth client in RFC destination &amp;1 is not configured</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error: &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Error detail: &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>&amp;1 entities (&amp;2) transferred</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Enter &quot;Source ID&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 specifications</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Enter &quot;Recipe Valid From Date&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe Type&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe ID&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Enter &quot;RFC Destination&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Enter at least one valid &quot;Recipe Status&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp;1 recipes selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 recipes</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No failed payload found for the selected criteria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>&amp;1 entities (Handling Units) transferred</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>No Packaging Composition was found for the material &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>&amp;1 Material Classification versions selected for processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 entities (&amp;3) extracted out of &amp;2 relevant Material Class. versions</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Enter &quot;Validity Date of Mat. Class.&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Specify relevant material classifications in BAdI implementation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Too many selection criteria entered. Reduce the number of criteria.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Deprecated attribute &amp;1 for the entity &amp;2 is used in your implementation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Determine the validity date.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Determine the period from 1 to 6 months.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>&amp;1 Handling Units selected for processing</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

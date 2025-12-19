@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/VPCOE/IF_UPH_EXEC_LOAD_WRAP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for Upload execution wrapper class</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_UPLOAD</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_UPLOAD</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_UPLOAD</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_UPLOAD</CMPNAME>
+     <SCONAME>IV_UPLOAD_MODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_UPLOAD</CMPNAME>
+     <SCONAME>IV_UPLOAD_MODE</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_UPLOAD</CMPNAME>
+     <SCONAME>IV_UPLOAD_MODE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mode of Data Update(Full,Delta.,)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

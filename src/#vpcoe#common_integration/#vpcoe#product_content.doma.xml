@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/VPCOE/PRODUCT_CONTENT</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Product Content</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>AGRI</DOMVALUE_L>
+     <DDTEXT>Products designed for agricultural or livestock consumption</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BEV_ALC</DOMVALUE_L>
+     <DDTEXT>Alcoholic beverages </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BEV_ALC_BE</DOMVALUE_L>
+     <DDTEXT>Beer</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BEV_WATER</DOMVALUE_L>
+     <DDTEXT>Potable Water</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BEV_SOFT</DOMVALUE_L>
+     <DDTEXT>Softdrinks</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CHEMB2B</DOMVALUE_L>
+     <DDTEXT>Chemicals in a B2B context</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CLEANING</DOMVALUE_L>
+     <DDTEXT>Cleaning products</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CLOTHING</DOMVALUE_L>
+     <DDTEXT>Clothing &amp; apparel  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>COSM_CARE</DOMVALUE_L>
+     <DDTEXT>Cosmetics &amp; personal care  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ELECTRONIC</DOMVALUE_L>
+     <DDTEXT>Electronics </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FOOD</DOMVALUE_L>
+     <DDTEXT>Food &amp; nutrition  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FOOD_DIR</DOMVALUE_L>
+     <DDTEXT>Food for direct consumption</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FOOD_MED</DOMVALUE_L>
+     <DDTEXT>Medical food</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FURNITURE</DOMVALUE_L>
+     <DDTEXT>Furniture, furnishings &amp; household items  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GAS</DOMVALUE_L>
+     <DDTEXT>Gas, aerosol</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>HOME</DOMVALUE_L>
+     <DDTEXT>Home improvement &amp; gardening  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MED_DEVICE</DOMVALUE_L>
+     <DDTEXT>Medical Electrical Device</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NONALCOHOL</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NONFOOD</DOMVALUE_L>
+     <DDTEXT>Other non-food</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PAINT</DOMVALUE_L>
+     <DDTEXT>Paint</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PET</DOMVALUE_L>
+     <DDTEXT>Pet food &amp; animal supplies  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PHARMA</DOMVALUE_L>
+     <DDTEXT>Pharmaceutical &amp; medical goods  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TOBACCO</DOMVALUE_L>
+     <DDTEXT>Tobacco  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TOYS</DOMVALUE_L>
+     <DDTEXT>Toys  </DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BEV_OTHER</DOMVALUE_L>
+     <DDTEXT>Other Beverages</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VET_PHARMA</DOMVALUE_L>
+     <DDTEXT>Veterinary pharmaceutical products (only for animal app.)</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>Product Content</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Product Content</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>AGRI</DOMVALUE_L>
+     <DDTEXT>Products designed for agricultural or livestock consumption</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>AGRI</DOMVALUE_L>
+     <DDTEXT>Products designed for agricultural or livestock consumption</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>BEV_ALC</DOMVALUE_L>
+     <DDTEXT>Alcoholic beverages </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BEV_ALC</DOMVALUE_L>
+     <DDTEXT>Alcoholic beverages </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>BEV_ALC_BE</DOMVALUE_L>
+     <DDTEXT>Beer</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BEV_ALC_BE</DOMVALUE_L>
+     <DDTEXT>Beer</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>BEV_WATER</DOMVALUE_L>
+     <DDTEXT>Potable Water</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BEV_WATER</DOMVALUE_L>
+     <DDTEXT>Potable Water</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>BEV_SOFT</DOMVALUE_L>
+     <DDTEXT>Softdrinks</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BEV_SOFT</DOMVALUE_L>
+     <DDTEXT>Softdrinks</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>CHEMB2B</DOMVALUE_L>
+     <DDTEXT>Chemicals in a B2B context</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CHEMB2B</DOMVALUE_L>
+     <DDTEXT>Chemicals in a B2B context</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>CLEANING</DOMVALUE_L>
+     <DDTEXT>Cleaning products</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CLEANING</DOMVALUE_L>
+     <DDTEXT>Cleaning products</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>CLOTHING</DOMVALUE_L>
+     <DDTEXT>Clothing &amp; apparel  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CLOTHING</DOMVALUE_L>
+     <DDTEXT>Clothing &amp; apparel  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>COSM_CARE</DOMVALUE_L>
+     <DDTEXT>Cosmetics &amp; personal care  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>COSM_CARE</DOMVALUE_L>
+     <DDTEXT>Cosmetics &amp; personal care  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>ELECTRONIC</DOMVALUE_L>
+     <DDTEXT>Electronics </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ELECTRONIC</DOMVALUE_L>
+     <DDTEXT>Electronics </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>FOOD</DOMVALUE_L>
+     <DDTEXT>Food &amp; nutrition  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>FOOD</DOMVALUE_L>
+     <DDTEXT>Food &amp; nutrition  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>FOOD_DIR</DOMVALUE_L>
+     <DDTEXT>Food for direct consumption</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>FOOD_DIR</DOMVALUE_L>
+     <DDTEXT>Food for direct consumption</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>FOOD_MED</DOMVALUE_L>
+     <DDTEXT>Medical food</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>FOOD_MED</DOMVALUE_L>
+     <DDTEXT>Medical food</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>FURNITURE</DOMVALUE_L>
+     <DDTEXT>Furniture, furnishings &amp; household items  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>FURNITURE</DOMVALUE_L>
+     <DDTEXT>Furniture, furnishings &amp; household items  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>GAS</DOMVALUE_L>
+     <DDTEXT>Gas, aerosol</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>GAS</DOMVALUE_L>
+     <DDTEXT>Gas, aerosol</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>HOME</DOMVALUE_L>
+     <DDTEXT>Home improvement &amp; gardening  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>HOME</DOMVALUE_L>
+     <DDTEXT>Home improvement &amp; gardening  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>MED_DEVICE</DOMVALUE_L>
+     <DDTEXT>Medical Electrical Device</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>MED_DEVICE</DOMVALUE_L>
+     <DDTEXT>Medical Electrical Device</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>NONALCOHOL</DOMVALUE_L>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NONALCOHOL</DOMVALUE_L>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>NONFOOD</DOMVALUE_L>
+     <DDTEXT>Other non-food</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NONFOOD</DOMVALUE_L>
+     <DDTEXT>Other non-food</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>PAINT</DOMVALUE_L>
+     <DDTEXT>Paint</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PAINT</DOMVALUE_L>
+     <DDTEXT>Paint</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>PET</DOMVALUE_L>
+     <DDTEXT>Pet food &amp; animal supplies  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PET</DOMVALUE_L>
+     <DDTEXT>Pet food &amp; animal supplies  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>PHARMA</DOMVALUE_L>
+     <DDTEXT>Pharmaceutical &amp; medical goods  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PHARMA</DOMVALUE_L>
+     <DDTEXT>Pharmaceutical &amp; medical goods  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>TOBACCO</DOMVALUE_L>
+     <DDTEXT>Tobacco  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>TOBACCO</DOMVALUE_L>
+     <DDTEXT>Tobacco  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>TOYS</DOMVALUE_L>
+     <DDTEXT>Toys  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>TOYS</DOMVALUE_L>
+     <DDTEXT>Toys  </DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>BEV_OTHER</DOMVALUE_L>
+     <DDTEXT>Other Beverages</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BEV_OTHER</DOMVALUE_L>
+     <DDTEXT>Other Beverages</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>VET_PHARMA</DOMVALUE_L>
+     <DDTEXT>Veterinary pharmaceutical products (only for animal app.)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VET_PHARMA</DOMVALUE_L>
+     <DDTEXT>Veterinary pharmaceutical products (only for animal app.)</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

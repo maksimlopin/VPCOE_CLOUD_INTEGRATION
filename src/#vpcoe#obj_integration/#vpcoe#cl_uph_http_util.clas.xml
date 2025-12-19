@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_UPH_HTTP_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT> setup HTTP client for RDP API</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Connection could not be established</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Connection could not be established</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Connection could not be established</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create HTTP client by RFC destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Create HTTP client by RFC destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create HTTP client by RFC destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_BY_URL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create HTTP client by URL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Method to create Oauth2 client</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Method to create Oauth2 client</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Method to create Oauth2 client</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_CONTENT_TYPE_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value for the media type of the HTTP request body</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_CONTENT_TYPE_JSON</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Value for the media type of the HTTP request body</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_CONTENT_TYPE_JSON</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Value for the media type of the HTTP request body</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_HEADER_REQUEST_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>HTTP header request_method key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_HEADER_REQUEST_METHOD</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>HTTP header request_method key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_HEADER_REQUEST_METHOD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>HTTP header request_method key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_HTTP_REQUEST_URI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>HTTP request resource identifier key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_HTTP_REQUEST_URI</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>HTTP request resource identifier key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_HTTP_REQUEST_URI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>HTTP request resource identifier key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_REQUEST_METHOD_PUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Request Method &apos;PUT&apos;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_REQUEST_METHOD_PUT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Request Method &apos;PUT&apos;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MC_REQUEST_METHOD_PUT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Request Method &apos;PUT&apos;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_HTTP_CLIENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_HTTP_CLIENT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_HTTP_CLIENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_LOGGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Logger</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_LOGGER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for Logger</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_LOGGER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for Logger</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RESPONSE_FROM_HTTP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>response from RDP API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RESPONSE_FROM_HTTP</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>response from RDP API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RESPONSE_FROM_HTTP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>response from RDP API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_BODY_DATA_SEND_AND_RECEIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set body data of API request and Send/Recieve http request</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_BODY_DATA_SEND_AND_RECEIVE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set body data of API request and Send/Recieve http request</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_BODY_DATA_SEND_AND_RECEIVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set body data of API request and Send/Recieve http request</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_OAUTH2_TOKEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Oauth access token to http client</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_OAUTH2_TOKEN</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set Oauth access token to http client</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_OAUTH2_TOKEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set Oauth access token to http client</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <SCONAME>IV_DESTINATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <SCONAME>IV_DESTINATION</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <SCONAME>IV_DESTINATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <SCONAME>RO_CLIENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <SCONAME>RO_CLIENT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_DESTINATION</CMPNAME>
+     <SCONAME>RO_CLIENT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_URL</CMPNAME>
+     <SCONAME>IV_DESTINATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_BY_URL</CMPNAME>
+     <SCONAME>RO_CLIENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>HTTP Client Abstraction</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <SCONAME>IV_RFCDEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <SCONAME>IV_RFCDEST</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <SCONAME>IV_RFCDEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <SCONAME>RO_OAUTH2_CLIENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>OAuth 2.0 Client</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <SCONAME>RO_OAUTH2_CLIENT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>OAuth 2.0 Client</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OAUTH2_CLIENT</CMPNAME>
+     <SCONAME>RO_OAUTH2_CLIENT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>OAuth 2.0 Client</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_OAUTH2_TOKEN</CMPNAME>
+     <SCONAME>IV_RFC_DES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_OAUTH2_TOKEN</CMPNAME>
+     <SCONAME>IV_RFC_DES</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_OAUTH2_TOKEN</CMPNAME>
+     <SCONAME>IV_RFC_DES</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Logical destination (specified in function call)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

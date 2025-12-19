@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_SCRAP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/VPCOE/RCP_DECFLOAT_34</DOMNAME>
+    <HEADLEN>22</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Formula Item - Scrap Factor in Percent</DDTEXT>
+    <REPTEXT>Scrap Factor [%]</REPTEXT>
+    <SCRTEXT_S>Scrap [%]</SCRTEXT_S>
+    <SCRTEXT_M>Scrap [%]</SCRTEXT_M>
+    <SCRTEXT_L>Scrap Factor [%]</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Formelposition - Ausschussfaktor in Prozent</DDTEXT>
+     <REPTEXT>Ausschussfaktor [%]</REPTEXT>
+     <SCRTEXT_S>Aussch.[%]</SCRTEXT_S>
+     <SCRTEXT_M>Ausschuss [%]</SCRTEXT_M>
+     <SCRTEXT_L>Ausschussfaktor [%]</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ明細 - 不良要因 (%)</DDTEXT>
+     <REPTEXT>不良要因 [%]</REPTEXT>
+     <SCRTEXT_S>不良 [%]</SCRTEXT_S>
+     <SCRTEXT_M>不良 [%]</SCRTEXT_M>
+     <SCRTEXT_L>不良要因 [%]</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Formulepositie - uitvalfactor in procent</DDTEXT>
+     <REPTEXT>Uitvalfactor [%]</REPTEXT>
+     <SCRTEXT_S>Uitval [%]</SCRTEXT_S>
+     <SCRTEXT_M>Uitval [%]</SCRTEXT_M>
+     <SCRTEXT_L>Uitvalfactor [%]</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Posición fórmula: Factor de rechazo en porcentaje</DDTEXT>
+     <REPTEXT>Factor rechazo [%]</REPTEXT>
+     <SCRTEXT_S>Rechazo[%]</SCRTEXT_S>
+     <SCRTEXT_M>Factor rech.[%]</SCRTEXT_M>
+     <SCRTEXT_L>Factor rechazo [%]</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

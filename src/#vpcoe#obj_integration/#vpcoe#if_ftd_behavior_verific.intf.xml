@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/VPCOE/IF_FTD_BEHAVIOR_VERIFIC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interaction behavior verification of function test double</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CALLED_AT_LEAST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verifies that, function is called at least a number of times</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CALLED_AT_LEAST_ONCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verifies that function is called at least once</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CALLED_AT_MOST_ONCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verifies that, function is called at most once</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CALLED_ONCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verifies that, function is called exactly once</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CALLED_TIMES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verifies that, function is called for given number of times</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_NEVER_CALLED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verifies that, function is never called</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CALLED_AT_LEAST</CMPNAME>
+     <SCONAME>TIMES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of times function is expected to be called at least</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CALLED_TIMES</CMPNAME>
+     <SCONAME>TIMES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of times the function is expected to be called</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

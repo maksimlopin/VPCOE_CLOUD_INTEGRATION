@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/VPCOE/BADI_PCKF_CUSTOM</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00093</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/VPCOE/BADI_PCKF_CUSTOM</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The Business Add-In (BAdI) /VPCOE/BADI_PCKF_CUSTOM that is assigned to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enhancement spot /VPCOE/ES_PCKF_CUSTOM is used during the download and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processing of packaging fee data from the API of SAP Responsible Design</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and Production (RDP). Its main task is to provide an extensibility</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mechanism to integrate customer specific implementations for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>retrieval and posting of packaging fee data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Before describing this extension mechanism in more detail, it is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>necessary to understand the concept of Entity Types and their respective</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Entity Processor implementations.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Entity Type and Entity Processor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The Packaging Fee API of SAP Responsible Design and Production (RDP) is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>providing different entities:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Packaging Fee (PCKG_FEE)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Applicable Business Partners (APL_BUSP)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>These entities are named in the following as Entity Type. The processing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the corresponding entity data of an Entity Type is implemented by a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>so-called Entity Processor class. An Entity Processor class must</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implement the interface /VPCOE/IF_PCKF_ENTITY_PROC that contains the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following important methods:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>INIT_PROCESSOR: This method is used to initialize the Entity Processor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>PREPARE_RETRIEVE: The preparation steps for the entity data retrieval</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are implemented in this method.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RETRIEVE_PACKAGE: The implementation of the entity data retrieval is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implemented in this method. For example, the retrieval of the entity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data from the corresponding RDP API must be implemented in this method.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TRANSFER_PACKAGE: The transfer of the entity data to its target is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implemented in this method. For example, the conversion of Packaging Fee</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entity data to ERP pricing conditions must be implemented here in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Entity Processor class for Entity Type PCKG_FEE.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For each Entity Type there is already a base class available in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system that must be derived for a custom logic:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>/VPCOE/CL_PCKF_PROC_PCKG_FEE: base class for Entity Type PCKG_FEE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>/VPCOE/CL_PCKF_PROC_APPL_PART: base class for Entity Type APL_BUSP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The data retrieval from the RDP API (method PREPARE_RETRIEVE and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>RETRIEVE_PACKAGE) is already implemented in these base classes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>But for the implementation of the customer specific conversion logic of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Packaging Fee entity data to ERP pricing conditions, a custom</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implementation must be provided by deriving from class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/VPCOE/CL_PCKF_PROC_PCKG_FEE and overriding the method TRANSFER.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BAdI Methods</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI definition is active in the standard system. It contains the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following methods from interface /VPCOE/IF_PCKF_CUSTOM:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>get_entity_processor:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>This method returns which entity processor is used for the corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entity type. The BAdI mechanism allows to exchange a processor, for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>example, when a customer specific conversion of Packaging Fee data to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ERP Pricing Conditions is needed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>If no custom implementation is returned, the Entity Processor base class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is used instead.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>get_target_endpoint_dest:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>This method will return the end point destination of the RDP source</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system. If this method is defined, the returned value will be displayed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>as the default RFC source in the retrieval report selection screen. If</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>no specific value is returned, the default destination VPCOE_RDP_PCKF is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>used.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>determine_version</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>This method implements the logic for determining the version for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/VPCOE/R_PCKF_RETRIEVAL report. Depending on the version, the subsequent</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mapper class will be determined. Another difference is that the second</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>version lacks the Context attribute.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BAdI Implementations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI implementation must be defined by the user and is not provided</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>by SAP. As an example, class /VPCOE/CL_EXMPL_PCKF_CUSTOM is linked as a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BAdI example implementation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For more information about settings for a BAdI, such as filters, single</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>or multiple uses, see the Spot Element Definitions tab in the BAdI</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Builder (transaction SE18).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Retrieval and Posting of Packaging Fee data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Prerequisites</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The BAdI is implemented and provides the Entity Processor instance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(custom class or base class) for the Entity Types PCKG_FEE and APL_BUSP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The RFC destination and the OAuth configuration are maintained in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system to access the RDP API.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For the retrieval of Packaging Fee and Applicable Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entity data and their posting, the following reports are defined in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>/VPCOE/R_PCKF_RETRIEVAL (transaction /VPCOE/PCKF_RETRIEVAL): Retrieve</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the Packaging Fee and Applicable Business Partner entity data from the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>RDP API. The retrieved entity data is stored for the later</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(asynchronous) processing by the posting report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>/VPCOE/R_PCKF_POSTING (transaction: /VPCOE/PCKF_POSTING): Conversion and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>posting of retrieved Packaging Fee and Applicable Business Partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entity data into ERP Pricing Conditions.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>/VPCOE/R_PCKF_COMP_CODE_EXEM  (transaction /VPCOE/PCKF_CC_EXMP):</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Retrieve the Company   Code Exemptions.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>/VPCOE/R_PCKF_CUSTOMER_ROLE  (transaction /VPCOE/PCKF_CUS_ROLE):</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Retrieve the Customer Roles.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>/VPCOE/R_PCKF_CUSTOM_EXEMPT (transaction/VPCOE/PCKF_CUS_EXMP): Retrieve</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the Customer Exemptions.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When one of these reports is executed, this BAdI is called. As a result</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the call, an instance of an (customer specific) Entity Processor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implementation must be returned.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

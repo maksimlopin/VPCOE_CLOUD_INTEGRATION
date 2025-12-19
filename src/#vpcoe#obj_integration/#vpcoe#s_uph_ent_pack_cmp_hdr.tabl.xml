@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/VPCOE/S_UPH_ENT_PACK_CMP_HDR</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>SURDP:Packaging Composition Header Data</DDTEXT>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>SOURCE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000128</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000064</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Source ID</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DISPLAYID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000080</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000040</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Id of the recipe</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DESCRIPTION</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <LENG>050000</LENG>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Description of the recipe</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BASEQUANTITY</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000012</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000022</LENG>
+     <DECIMALS>000006</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Quantity in the formula of the primary output composition</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>BASEUNITOFMEASUREID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000006</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000003</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>UoM of the quantitiy in the formula of the primary output co</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>CONSUMERSALESUNIT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000006</INTLEN>
+     <DATATYPE>UNIT</DATATYPE>
+     <LENG>000003</LENG>
+     <MASK>  UNIT</MASK>
+     <DDTEXT>Consumer Sales Unit of Measure</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>SURDP:Packaging Composition Header Data</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>SURDP:Packaging Composition Header Data</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

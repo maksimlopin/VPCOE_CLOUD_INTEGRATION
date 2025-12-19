@@ -1,0 +1,44 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" template="tmpl1">
+  <tt:root name="ROOT"/>
+  <tt:template name="tmpl1">
+    <object>
+      <str name="replicationRunId">
+        <tt:value ref="ROOT.REPLICATION_RUN_ID"/>
+      </str>
+      <array name="elements">
+        <tt:loop ref="ROOT.ELEMENTS">
+          <object>
+            <str name="supplierInvoice">
+              <tt:value ref="$ref.SUPPLIER_INVOICE"/>
+            </str>
+            <str name="position">
+              <tt:value ref="$ref.SUPPLIER_INVOICE_ITEM"/>
+            </str>
+            <str name="fiscalYear">
+              <tt:value ref="$ref.FISCAL_YEAR"/>
+            </str>
+            <str name="documentDate">
+              <tt:value ref="$ref.DOCUMENT_DATE"/>
+            </str>
+            <str name="supplierInvoiceIdByInvcgParty">
+              <tt:value ref="$ref.SUPPLIER_INVOICE_ID"/>
+            </str>
+            <str name="purchaseOrder">
+              <tt:value ref="$ref.PURCHASE_ORDER"/>
+            </str>
+            <str name="purchaseOrderItem">
+              <tt:value ref="$ref.PURCHASE_ORDER_ITEM"/>
+            </str>
+            <str name="reverseDocument">
+              <tt:value ref="$ref.REVERSE_DOCUMENT"/>
+            </str>
+            <str name="reverseDocumentFiscalYear">
+              <tt:value ref="$ref.REVERSE_DOC_YEAR"/>
+            </str>
+          </object>
+        </tt:loop>
+      </array>
+    </object>
+  </tt:template>
+</tt:transform>

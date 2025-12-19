@@ -1,0 +1,2512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_ABAP_GZIP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for (De)Compression (GZIP)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>This class enables you to perform data compression with the DEFLATE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>algorithm as well as create and decode GZIP files.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The DEFLATE algorithm is used in different file formats, including GZIP</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>and ZIP for data compression.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The following methods enable you to compress or decompress texts (as C</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>strings or C fields) or binary data (as X strings or X fields) using the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>DEFLATE algorithm.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>·,,COMPRESS_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>·,,COMPRESS_BINARY</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>·,,DECOMPRESS_TEXT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>·,,DECOMPRESS_BINARY</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The following methods create or decode GZIP files in accordance with the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>format specification in RFC 1952. They enable all fields to be accessed.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>·,,COMPRESS_BINARY_WITH_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>·,,DECOMPRESS_BINARY_WITH_HEADER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The class can be used to create and decode ZIP files. One of the main</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>differences between ZIP files and GZIP files is that ZIP files can</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>contain multiple compressed files.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;RELATIONS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;HINTS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>For further information, refer to the individual methods.</TDLINE>
+    </TLINE>
+   </LINES>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Diese Klasse ermöglicht Datenkompression mit dem DEFLATE-Algorithmus und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Erzeugung und Dekodierung von GZIP-Dateien.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Der DEFLATE-Algorithmus wird unter anderem in den Dateiformaten GZIP und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ZIP zur Datenkompression verwendet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Die folgenden Methoden ermöglichen es, Texte (als C-String oder C-Feld)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>oder Binärdaten (als X-String oder X-Feld) mit dem DEFLATE-Algorithmus</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zu komprimieren bzw. zu dekomprimieren:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,COMPRESS_TEXT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,COMPRESS_BINARY</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,DECOMPRESS_TEXT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,DECOMPRESS_BINARY</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Die folgenden Methoden erzeugen bzw. dekodieren GZIP-Dateien</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsprechend der Formatspezifikation in RFC 1952. Sie ermöglichen den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zugriff auf alle dort vorgesehenen Felder:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,COMPRESS_BINARY_WITH_HEADER</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,DECOMPRESS_BINARY_WITH_HEADER</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Zur Erzeugung und Dekodierung von ZIP-Dateien (diese unterscheiden sich</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>von GZIP insbesondere dadurch, dass sie mehrere komprimierte Dateien</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enthalten können) kann die Klasse CL_ABAP_ZIP benutzt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RELATIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Weitere Informationen bei den einzelnen Methoden.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </I18N_LINES>
+   <LONGTEXTS_CO>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00024</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die angegebenen Binärdaten werden mit GZIP komprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Die komprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge der komprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der Inhalt der XSEQUENCE RAW_IN wird in das GZIP-Format komprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optionale Angabe der Länge von RAW_IN. Der Default-Wert ist die gefüllte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Länge.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>COMPRESS_LEVEL</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optionale Angabe des Komprimierungs-Level. Er muss zwischen 0 und 9</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>liegen, wobei 1 die höchste Geschwindigkeit und 9 die beste</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Komprimierung bedeutet, bei 0 wird überhaupt nicht komprimiert. Der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Default-Wert ist 6.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Die komprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge der komprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die angegebene XSEQUENCE GZIP_OUT zu kurz ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die RAW_IN_LEN für das gegebene RAW_IN zu groß ist oder bei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>COMPRESS_LEVEL falsche Werte angegeben wurden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00023</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The specified binary data is compressed using GZIP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The compressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the compressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The content of the xsequence RAW_IN is compressed to the GZIP format.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optional specification of the length of RAW_IN. The default value</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is the filled length.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>COMPRESS_LEVEL</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optional specification of the compression level. This must be between 0</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and 9, where 1 is the fastest and 9 the highest compression. 0 means</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that no compression takes place. The default value is 6.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The compressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the compressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If the xsequence GZIP_OUT is too short.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If RAW_IN_LEN is too large for the specified RAW_IN or invalid values</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>were specified for COMPRESS_LEVEL.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY_WITH_HEADER</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00044</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY_WITH_HEADER</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die angegebenen Binärdaten werden mit GZIP komprimiert und mit einem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vollständigen GZIP-Dateiheader entsprechend RFC1592 versehen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Im Gegensatz zum Ergebnis der Methode COMPRESS_BINARY() werden die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>komprimierten Daten mit einem Dateiheader versehen und können somit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>durch beliebige, GZIP-kompatible Programme verarbeitet werden. Der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Dateiheader enthält im Wesentlichen folgende Informationen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Eine Kennung für das GZIP-Dateiformat</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Optionale Informationen: Änderungszeitstempel und Namen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ursprünglichen Datei, einen Kommentareintrag, ein &quot;zusätzliches Feld&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sowie eine Prüfsumme für den Dateiheader</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Eine Prüfsumme für die komprimierten Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Die zu komprimierenden Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>COMPRESS_LEVEL</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional, Default-Wert ist 6) Komprimierungsstufe. Muss zwischen 0 und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>9 liegen, dabei bedeutet 0 keine Komprimierung, 1 die höchste</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geschwindigkeit und 9 die beste Komprimierung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>MTIME_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) Änderungszeitstempel der ursprünglichen Datei. Muss zwischen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dem 1.1.1970 und dem 15.2.2106 liegen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FNAME_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) Name der ursprünglichen Datei ohne Verzeichnis. Darf kein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>NUL-Zeichen (Unicode-Codepoint 0) und ansonsten nur Zeichen der Codepage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ISO-8859-1 enthalten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FCOMMENT_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) Kommentareintrag. Darf kein NUL-Zeichen (Unicode-Codepoint 0)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und ansonsten nur Zeichen der Codepage ISO-8859-1 enthalten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FEXTRA_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) Inhalt des FEXTRA-Felds des GZIP-Dateiheaders (siehe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Abschnitt &quot;2.3.1.1. Extra field&quot; von RFC1952). Darf nicht länger als</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>65535 Bytes sein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FHCRC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) ABAP_TRUE, um den Dateiheader mit einer Prüfsumme zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>versehen. Beachten Sie, das viele Dekompressionsprogramme einen Fehler</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enthalten, aufgrund dessen sie mit dieser Option erzeugte Daten nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verarbeiten können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Die mit einem GZIP-Dateiheader versehenen, komprimierten Binärdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Falls bei COMPRESS_LEVEL falsche Werte angegeben wurden; falls MTIME_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>außerhalb des Bereichs 1.1.1970 bis 15.2.2106 liegt; falls FNAME_IN oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>FCOMMENT_IN ein oder mehrere NUL-Zeichen enthalten oder Zeichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>außerhalb der Codepage ISO-8859-1; oder falls FEXTRA_IN länger als 65535</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bytes ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY_WITH_HEADER</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00040</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           COMPRESS_BINARY_WITH_HEADER</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The specified binary data is compressed with GZIP and is assigned a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>complete GZIP file header in accordance with RFC1592.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Unlike the result of method COMPRESS_BINARY(), the compressed data is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned a file header, which means the data can be processed with any</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>GZIP-compatible programs. The file header contains the following</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>An ID for the GZIP file format</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Optional information: Change time stamp and name of original file, a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comment entry, an &quot;additional field&quot; and a check sum for the file header</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>A check sum for the compressed data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Data to be compressed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>COMPRESS_LEVEL</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Compression level (optional, default value is 6). Must be between 0 and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>9; 0 means no compression, 1 is the fastest compression and 9 is the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>best compression.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>MTIME_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) change time stamp or original file. Must be between 1.1.1970</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and 15.2.2106.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FNAME_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) name of original file without directory. Cannot contain a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>NULL character (Unicode codepoint 0) and can otherwise only contain</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>characters from code page ISO-8859-1.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FCOMMENT_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) comment. Cannot contain a NULL character (Unicode codepoint</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>0) and can otherwise only contain characters from code page ISO-8859-1.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FEXTRA_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) Content from FEXTRA field of GZIP file header (see section</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;2.3.1.1. Extra field&quot; of RFC1952). Cannot be less than 65535 bytes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FHCRC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>(Optional) ABAP_TRUE to assign a checksum to the file header. Note that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>many decompression programs contain an error, which prevents them from</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processing data with this option.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Compressed binary data with an assigned GZIP file header</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>If incorrect values were entered for COMPRESS_LEVEL; if MTIME_IN is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>outside the range 1.1.1970 to 15.2.2106; if FNAME_IN or FCOMMENT_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contain one or more NULL characters or characters outside of code page</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ISO-8859-1; or if FEXTRA_IN is longer than 65535 bytes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           COMPRESS_TEXT</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00033</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           COMPRESS_TEXT</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der angegebene Text wird mit GZIP komprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der komprimierte Text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge des komprimierten Textes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der Inhalt der CSEQUENCE TEXT_IN wird in das GZIP-Format komprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optionale Angabe der Länge von TEXT_IN. Der Default-Wert ist die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gefüllte Länge.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>COMPRESS_LEVEL</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optionale Angabe des Komprimierungs-Level. Er muss zwischen 0 und 9</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>liegen, wobei 1 die höchste Geschwindigkeit und 9 die beste</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Komprimierung bedeutet, bei 0 wird überhaupt nicht komprimiert. Der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Default-Wert ist 6.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CONVERSION</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Mit dem optionalen Flag CONVERSION kann man steuern, ob die Eingabedaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vor der Kompression konvertiert werden sollen oder nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>DEFAULT:  in UC nach UTF-8, sonst keine Konversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>NONE:     keine Konversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>UTF-8:    Konversion nach UTF-8</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;codepg&gt;: Konversion in angegebene Codepage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der komprimierte Text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge des komprimierten Textes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die angegebene XSEQUENCE GZIP_OUT zu kurz ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die TEXT_IN_LEN für das gegebene TEXT_IN zu groß ist oder bei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>COMPRESS_LEVEL bzw. CONVERSION falsche Werte angegeben wurden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_CONVERSION_CODEPAGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls bei angegebener Konvertierung ein Problem aufgetreten ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           COMPRESS_TEXT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00032</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           COMPRESS_TEXT</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The specified text is compressed using GZIP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The compressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the compressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The content of the csequence TEXT_IN is compressed to the GZIP format.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optional specification of the length of TEXT_IN. The default value</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is the filled length.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>COMPRESS_LEVEL</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optional specification of the compression level. This must be between 0</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and 9, where 1 is the fastest and 9 the highest compression. 0 means</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that no compression takes place. The deafult value is 6.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CONVERSION</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>With the optional CONVERSION flag, you can control whether or not the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>input data is to be converted before the compression.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>DEFAULT:  In Unicode, conversion to UTF-8, otherwise no conversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>NONE:     No conversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>UTF-8:    Conversion to UTF-8</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;codepg&gt;: Conversion to specified codepage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The compressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the compressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If the specified xsequence GZIP_OUT is too short.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If TEXT_IN_LEN is too large for the specified TEXT_IN or invalid values</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>were specified for COMPRESS_LEVEL or CONVERSION.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_CONVERSION_CODEPAGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If a problem was encountered during the specified conversion.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die angegebenen mit GZIP komprimierten Binärdaten werden dekomprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Die dekomprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge der dekomprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der Inhalt der XSEQUENCE GZIP_IN wird dekomprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optionale Angabe der Länge von GZIP_IN. Der Default-Wert ist die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gefüllte Länge.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Die dekomprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge der dekomprimierten Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die angegebene XEQUENCE RAW_OUT zu kurz ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die GZIP_IN_LEN für das gegebene GZIP_IN zu groß ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Decompresses the specified binary data compressed using GZIP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The decompressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the decompressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Decompresses the content of the xsequence GZIP_IN.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optional specification of the length of GZIP_IN. The default value is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the filled length.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The decompressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the decompressed binary data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If the specified xsequence RAW_OUT is too short.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If GZIP_IN_LEN is too large for the specified GZIP_IN.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY_WITH_HEADER</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00031</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY_WITH_HEADER</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dekompression des Inhalts einer GZIP-Datei. Im Gegensatz zur Methode</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>DECOMPRESS_BINARY() müssen die zu dekomprimierenden Daten dem in RFC1952</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>beschriebenen GZIP-Dateiformat entsprechen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sowohl die in RFC1952 geforderten, minimalen Konsistenzprüfungen als</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auch fehlerhafte Prüfsummen führen zu einer Ausnahme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> CX_PARAMETER_INVALID für den Eingabeparameter GZIP_IN.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Gegensatz zu den meisten GZIP/GUNZIP-Implementierungen unterstützt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>diese Methode keine aus mehreren komprimierten GZIP-Dateien</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zusammenkonkatenierten Eingabe.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im GZIP-Dateiheader abgelegte Informationen sowie die dekomprimierten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Binärdaten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Der Inhalt von GZIP_IN wird dekomprimiert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Die dekomprimierten Binärdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>MTIME_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Änderungsdatum der ursprünglichen Datei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FNAME_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Name der ursprünglichen Datei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FCOMMENT_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Kommentareintrag</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FEXTRA_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Inhalt des FEXTRA-Felds des GZIP-Dateiheaders (siehe Abschnitt &quot;2.3.1.1.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Extra field&quot; von RFC1952)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Falls die Daten in GZIP_IN gegen die in Abschnitt &quot;2.3.1.2. Compliance&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>von RFC1952 beschriebenen Prüfungen verstoßen oder wenn die für das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Dekompressionsergebnis berechneten Prüfsummen nicht den in den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Eingabedaten hinterlegten Werten entsprechen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_COMPRESSION_ERROR</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Wenn die Dekompression fehlschlägt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY_WITH_HEADER</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00029</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_BINARY_WITH_HEADER</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Decompression of the content of a GZIP file. Unlike with method</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>DECOMPRESS_BINARY(), the data to be compressed must correspond to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>GZIP file format described in RFC1952.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The minimum consistency checks required in RFC1952 and the invalid check</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sums raise the exception CX_PARAMETER_INVALID for input parameter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>GZIP_IN.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Unlike most GZIP/GUNZIP implementations, this method does not support</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>any input made from multiple concatenated compressed GZIP files.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Information stored in the GZIP file header and other decompressed binary</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>The GZIP_IN content is decompressed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RAW_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>The decompressed binary data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>MTIME_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Last changed date of original file</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FNAME_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Name of original file</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FCOMMENT_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Comment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FEXTRA_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Content from FEXTRA field of GZIP file header (see section &quot;2.3.1.1.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Extra field&quot; of RFC1952)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>If the data in GZIP_IN violates the checks described in section</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;2.3.1.2. Compliance&quot; of RFC1952 or if the check sums calculated for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>decompression result do not match the values stored in the input data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_COMPRESSION_ERROR</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>If decompression fails</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_TEXT</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00030</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_TEXT</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der angegebene mit GZIP komprimierte Text wird dekomprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der dekomprimierte Text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge des dekomprimierten Textes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der Inhalt der XSEQUENCE GZIP_IN wird dekomprimiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optionale Angabe der Länge von GZIP_IN. Der Default-Wert ist die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gefüllte Länge.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CONVERSION</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Mit dem optionalen Flag CONVERSION kann man steuern, ob die Daten nach</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Dekompression konvertiert werden sollen oder nicht (dazu muss</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bekannt sein in welcher Codepage die Daten abgelegt wurden):</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>DEFAULT:  in UC: Konversion von UTF-8 in die System-Codepage,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>          sonst keine Konversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>NONE:     keine Konversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;codepg&gt;: Konversion von der angegebenen Codepage in die System-Codepage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Der dekomprimierte Text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Länge des dekomprimierten Textes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die angegebene CSEQUENCE TEXT_OUT zu kurz ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls die GZIP_IN_LEN für das gegebene GZIP_IN zu groß ist oder bei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CONVERSION falsche Werte angegeben wurden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_CONVERSION_CODEPAGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Falls bei angegebener CONV_FROM_UTF8-Konvertierung ein Problem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufgetreten ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>CO</ID>
+      <OBJECT>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_TEXT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00030</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/VPCOE/CL_ABAP_GZIP           DECOMPRESS_TEXT</TDNAME>
+      <TDID>CO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Decompresses the specified text compressed using GZIP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The decompressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the decompressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Decompresses the content of the xsequence GZIP_IN.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>GZIP_IN_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Optional specification of the length of GZIP_IN. The default value</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is the filled length.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CONVERSION</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>With the optional CONVERSION flag, you can control whether or not the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data is to be converted after the decompression (you must know in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which codepage the data was stored).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>DEFAULT:  In Unicode, conversion from UTF-8 to the system codepage,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>          otherwise no conversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>NONE:     No conversion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;codepg&gt;: Conversion from the specified codepage to the system codepage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>The decompressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>TEXT_OUT_LEN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Length of the decompressed text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_OUTBUF_TOO_SHORT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If the specified csequence TEXT_OUT is too short.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_PARAMETER_INVALID_RANGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If GZIP_IN_LEN is too large for the specified GZIP_IN or invalid values</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>were specified for CONVERSION.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>CX_SY_CONVERSION_CODEPAGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>If a problem was encountered during the specified CONV_FROM_UTF8</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>conversion.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS_CO>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Compression of binary data in GZIP file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Compression of binary data in GZIP file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Compression of binary data in GZIP file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Decmpression of a GZIP file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Decmpression of a GZIP file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Decmpression of a GZIP file</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>COMPRESS_LEVEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Level of Compression</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>COMPRESS_LEVEL</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Level of Compression</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>COMPRESS_LEVEL</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Level of Compression</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FCOMMENT_IN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Comment Entry</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FCOMMENT_IN</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Comment Entry</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FCOMMENT_IN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Comment Entry</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FEXTRA_IN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FEXTRA Filed of GZIP File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FEXTRA_IN</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>FEXTRA Filed of GZIP File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FEXTRA_IN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>FEXTRA Filed of GZIP File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FHCRC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP_TRUE: Assign Check Sum to File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FHCRC</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>ABAP_TRUE: Assign Check Sum to File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FHCRC</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP_TRUE: Assign Check Sum to File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FNAME_IN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Original File Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FNAME_IN</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Original File Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FNAME_IN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Original File Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>GZIP_OUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Compressed output</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>GZIP_OUT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Compressed output</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>GZIP_OUT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Compressed output</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>MTIME_IN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Time when original file was last changed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>MTIME_IN</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Time when original file was last changed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>MTIME_IN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Time when original file was last changed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>RAW_IN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Input Text (Binary)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>RAW_IN</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Input Text (Binary)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>COMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>RAW_IN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Input Text (Binary)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FCOMMENT_OUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Comment Entry</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FCOMMENT_OUT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Comment Entry</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FCOMMENT_OUT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Comment Entry</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FEXTRA_OUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FEXTRA Filed of GZIP File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FEXTRA_OUT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>FEXTRA Filed of GZIP File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FEXTRA_OUT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>FEXTRA Filed of GZIP File Header</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FNAME_OUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Original File Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FNAME_OUT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Original File Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>FNAME_OUT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Original File Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>GZIP_IN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Input of Zipped Binary Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>GZIP_IN</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Input of Zipped Binary Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>GZIP_IN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Input of Zipped Binary Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>MTIME_OUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Time when original file was last changed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>MTIME_OUT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Time when original file was last changed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>MTIME_OUT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Time when original file was last changed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>RAW_OUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Decompessed Output</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>RAW_OUT</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Decompessed Output</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DECOMPRESS_BINARY_WITH_HEADER</CMPNAME>
+     <SCONAME>RAW_OUT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Decompessed Output</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

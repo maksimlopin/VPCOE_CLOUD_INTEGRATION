@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/VPCOE/ADJUST_DATA_RETRIEVAL</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0029</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00060</TXTLINES>
+      <DOKSTATE>R</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/VPCOE/ADJUST_DATA_RETRIEVAL</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00029</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Use,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The following reports utilize this BAdI:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/BATCH_TO_RDP &lt;/&gt;   – Send Batch data to the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/CONFIGURATION_TO_RDP &lt;/&gt;   – Send Configuration data to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/CUSTOMER_TO_RDP &lt;/&gt;   – Send Customer data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/DELIVERY_TO_RDP &lt;/&gt;   – Send Delivery data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/INCOTERMS_TO_RDP &lt;/&gt;   – Send Incoterms data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/INVENTORY_TO_RDP &lt;/&gt;   – Send Inventory data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/MAT_DOC_TO_RDP &lt;/&gt;   – Send Material data to the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/ORG_DATA_TO_RDP &lt;/&gt;   – Send Organization data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/PRODUCT_TO_RDP &lt;/&gt;   – Send Product data to the RDP cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;·,,/VPCOE/SUPPLIER_TO_RDP &lt;/&gt;   – Send Supplier data to the RDP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cloud</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>When one of these reports is executed, this BAdI is called, triggering a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer-specific implementation that handles data retrieval, attribute</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mapping, and value transformation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Requirement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For more details about the standard settings of this BAdI, including</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>filters and usage (single or multiple implementations), refer to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Spot Element Definitions tab in the BAdI Builder (transaction SE18).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BAdI Methods</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI definition is active within the Integration Accelerator package</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and contains the following methods from interface &lt;EX&gt;/VPC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>OE/IF_ADJ_DATA_RETRIEVAL&lt;/&gt;:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~SKIP_SELECTION - &lt;/&gt;Allows bypassing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>standard VPCOE data selection logic. If used, data selection must be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>handled within &lt;EX&gt;ADJUST_DATA_RETRIEVAL&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~ADJUST_DATA_RETRIEVAL - &lt;/&gt;Enables</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer-specific data selection and adjustments to the extracted raw</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~ADJUST_JSON - &lt;/&gt;Modifies the JSON</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>payload before sending data to RDP, based on customer-specific</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>requirements.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~ADJUST_MAPPING - &lt;/&gt;Customizes or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>overwrites the standard VPCOE mapping from source data to the JSON</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>structure.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~GET_EXT_DATA - &lt;/&gt;Retrieves</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>extension data for Product, Customer, or Supplier as needed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~ADJUST_TEXT_MAPPING - &lt;/&gt;Customizes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the mapping of text-based attributes within the JSON structure.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~ADJUST_BUILD_WHERE_FOR_VARIANT -</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;Allows customization of WHERE conditions for data selection</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(especially relevant for Material Document replication).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~DEFINE_MOVEMENT_TYPE - &lt;/&gt;Enables</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>users to define custom movement type logic, overriding the default</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignment based on specific business rules (valid only for movement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type 303 and 305).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;EX&gt;o,,/VPCOE/IF_ADJ_DATA_RETRIEVAL~GET_DB_CONNECTION - &lt;/&gt;Customize</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>secondary DB connection.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>BAdI Implementations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The BAdI implementation must be provided by the user and is not</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>delivered as standard by SAP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For reference, see the sample implementation in class</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;EX&gt;/VPCOE/CL_ADJUST_API_EXAMPLE&lt;/&gt;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

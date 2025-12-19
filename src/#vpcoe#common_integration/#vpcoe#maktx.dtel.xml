@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/MAKTX</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TEXT40</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Material Description (Short Text)</DDTEXT>
+    <REPTEXT>Material Description</REPTEXT>
+    <SCRTEXT_S>Desc.</SCRTEXT_S>
+    <SCRTEXT_M>Material Description</SCRTEXT_M>
+    <SCRTEXT_L>Material Description</SCRTEXT_L>
+    <APPLCLASS>MG</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>MATL_DESC</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Materialbezeichnung (Kurztext)</DDTEXT>
+     <REPTEXT>Materialkurztext</REPTEXT>
+     <SCRTEXT_S>Kurztext</SCRTEXT_S>
+     <SCRTEXT_M>Kurztext</SCRTEXT_M>
+     <SCRTEXT_L>Materialkurztext</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>品目クエリビューテキスト (テキスト (短))</DDTEXT>
+     <REPTEXT>品目テキスト</REPTEXT>
+     <SCRTEXT_S>テキスト</SCRTEXT_S>
+     <SCRTEXT_M>品目テキスト</SCRTEXT_M>
+     <SCRTEXT_L>品目テキスト</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Artikelomschrijving (korte tekst)</DDTEXT>
+     <REPTEXT>Artikelomschrijving</REPTEXT>
+     <SCRTEXT_S>Korte txt</SCRTEXT_S>
+     <SCRTEXT_M>Korte tekst</SCRTEXT_M>
+     <SCRTEXT_L>Artikelomschrijving</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Denominación de material (texto breve)</DDTEXT>
+     <REPTEXT>Texto breve del material</REPTEXT>
+     <SCRTEXT_S>Txt.breve</SCRTEXT_S>
+     <SCRTEXT_M>Texto breve</SCRTEXT_M>
+     <SCRTEXT_L>Texto breve material</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

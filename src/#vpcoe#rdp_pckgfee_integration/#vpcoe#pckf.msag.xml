@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/VPCOE/PCKF</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages for data replication</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>An error occured (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>The provided filter settings for &amp;1 are not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Retrieval of Packaging Fees started on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Retrieval of Packaging Fees started in test mode on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Retrieval of Packaging Fees completed with &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Retrieval of Customer roles completed with &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Retrieval of Customer Exemptions completed with &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Retrieve from API failed; response code: &amp;1 (&amp;2) x</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>&amp;1 entities (&amp;2) retrieved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>RFC Destination not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>API not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Retrieval of Company Code Exemption completed with &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Process Direction is not valid!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Retrieval of Customer Roles started on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Retrieval of Customer Roles started in test mode on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Retrieval of Customer Exemptions started on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Retrieval of Customer Exemptions started in test mode on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Retrieval of Company Code Exemptions started on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Retrieval of Company Code Exemptions started in test mode on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Enter &quot;RFC Destination&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Select a initial load ID for delta load</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees started on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees started in test mode on &amp;1 at &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees completed with &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed (&amp;3 Packaging Fees)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed (&amp;3 Packaging Fees, &amp;4 failed)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fee &amp;1 &amp;2 &amp;3 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fee &amp;1 &amp;2 &amp;3 ok with issues</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Creation of change number &amp;1 failed</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>J</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <STEXT>Messages for data replication</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/VPCOE/PCKF</ARBGB>
+     <STEXT>Messages for data replication</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>An error occured (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>The provided filter settings for &amp;1 are not allowed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Retrieval of Packaging Fees started on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Retrieval of Packaging Fees started in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Retrieval of Packaging Fees completed with &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Retrieve from API failed; response code: &amp;1 (&amp;2) x</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>&amp;1 entities (&amp;2) retrieved</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>022</MSGNR>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>023</MSGNR>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>024</MSGNR>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Process Direction is not valid!</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Enter &quot;RFC Destination&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees started on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees started in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees completed with &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed (&amp;3 Packaging Fees)</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed (&amp;3 Packaging Fees, &amp;4 failed)</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fee &amp;1 &amp;2 &amp;3 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fee &amp;1 &amp;2 &amp;3 ok with issues</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Creation of change number &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>You do not have authorization to execute transaction &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>An error occured (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>The provided filter settings for &amp;1 are not allowed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Retrieval of Packaging Fees started on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Retrieval of Packaging Fees started in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Retrieval of Packaging Fees completed with &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Retrieve from API failed; response code: &amp;1 (&amp;2) x</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>&amp;1 entities (&amp;2) retrieved</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Process Direction is not valid!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Enter &quot;RFC Destination&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees started on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees started in test mode on &amp;1 at &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fees completed with &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed (&amp;3 Packaging Fees)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Data package &amp;1 of &amp;2 processed (&amp;3 Packaging Fees, &amp;4 failed)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fee &amp;1 &amp;2 &amp;3 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Posting of retrieved Packaging Fee &amp;1 &amp;2 &amp;3 ok with issues</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Creation of change number &amp;1 failed</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

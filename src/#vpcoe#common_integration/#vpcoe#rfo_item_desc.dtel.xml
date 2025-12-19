@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_ITEM_DESC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TEXT132</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Formula Item Description</DDTEXT>
+    <REPTEXT>Item Description</REPTEXT>
+    <SCRTEXT_S>Desc.</SCRTEXT_S>
+    <SCRTEXT_M>Item Desc.</SCRTEXT_M>
+    <SCRTEXT_L>Item Description</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Beschreibung der Formelposition</DDTEXT>
+     <REPTEXT>Positionsbeschreibung</REPTEXT>
+     <SCRTEXT_S>Beschreib.</SCRTEXT_S>
+     <SCRTEXT_M>Positionsbeschr</SCRTEXT_M>
+     <SCRTEXT_L>Positionsbeschreib.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フォーミュラ明細テキスト</DDTEXT>
+     <REPTEXT>明細テキスト</REPTEXT>
+     <SCRTEXT_S>文書 Text</SCRTEXT_S>
+     <SCRTEXT_M>明細テキスト</SCRTEXT_M>
+     <SCRTEXT_L>明細テキスト</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Omschrijving van formulepositie</DDTEXT>
+     <REPTEXT>Positieomschrijving</REPTEXT>
+     <SCRTEXT_S>Omschrijv.</SCRTEXT_S>
+     <SCRTEXT_M>Positieomschr.</SCRTEXT_M>
+     <SCRTEXT_L>Positieomschrijving</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Descripción de una posición de fórmula</DDTEXT>
+     <REPTEXT>Descripción de la posición</REPTEXT>
+     <SCRTEXT_S>Descrip.</SCRTEXT_S>
+     <SCRTEXT_M>Descr.posición</SCRTEXT_M>
+     <SCRTEXT_L>Descrip.posición</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

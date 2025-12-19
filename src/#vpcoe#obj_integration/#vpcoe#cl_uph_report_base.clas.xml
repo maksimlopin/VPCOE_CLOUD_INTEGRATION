@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_UPH_REPORT_BASE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Base Report Implementation for Upload of Packaging Data</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_EXEC_LOAD_WRAPPER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Upload execution wrapper class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_EXEC_LOAD_WRAPPER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for Upload execution wrapper class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_EXEC_LOAD_WRAPPER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for Upload execution wrapper class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_UPH_FACTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface of package factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_UPH_FACTORY</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface of package factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_UPH_FACTORY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface of package factory</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

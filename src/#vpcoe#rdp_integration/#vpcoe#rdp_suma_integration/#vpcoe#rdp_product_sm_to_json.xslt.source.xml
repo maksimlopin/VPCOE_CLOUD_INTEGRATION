@@ -1,0 +1,150 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" template="tmpl1">
+  <tt:root name="ROOT"/>
+  <tt:template name="tmpl1">
+    <object>
+      <str name="replicationRunId">
+        <tt:value ref="ROOT.REPLICATION_RUN_ID"/>
+      </str>
+      <array name="elements">
+        <tt:loop ref="ROOT.ELEMENTS">
+          <object>
+            <str name="id">
+              <tt:value ref="$ref.ID"/>
+            </str>
+            <str name="productType">
+              <tt:value ref="$ref.TYPE"/>
+            </str>
+            <str name="productHierarchy">
+              <tt:value ref="$ref.PRODUCT_HIERARCHY"/>
+            </str>
+            <str name="isMarkedForDeletion">
+              <tt:value ref="$ref.IS_MARKED_FOR_DELETION"/>
+            </str>
+            <str name="productGroup">
+              <tt:value ref="$ref.PRODUCT_GROUP"/>
+            </str>
+            <str name="division">
+              <tt:value ref="$ref.DIVISION"/>
+            </str>
+            <str name="name">
+              <tt:value ref="$ref.NAME"/>
+            </str>
+            <str name="isProcurementRelevant">
+              <tt:value ref="$ref.IS_PROCUREMENT_RELEVANT"/>
+            </str>
+            <str name="baseUnitOfMeasure">
+              <tt:value ref="$ref.BASE_UNIT_OF_MEASURE"/>
+            </str>
+            <str name="brand">
+              <tt:value ref="$ref.BRAND"/>
+            </str>
+            <array name="texts">
+              <tt:loop ref="$ref.TEXTS">
+                <object>
+                  <str name="language">
+                    <tt:value ref="$ref.LANGUAGE"/>
+                  </str>
+                  <str name="name">
+                    <tt:value ref="$ref.NAME"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+            <array name="quantityConversions">
+              <tt:loop ref="$ref.QUANTITY_CONVERSIONS">
+                <object>
+                  <str name="quantityUnitOfMeasure">
+                    <tt:value ref="$ref.QUANTITY_UNIT_OF_MEASURE"/>
+                  </str>
+                  <str name="quantityContent">
+                    <tt:value ref="$ref.QUANTITY_CONTENT"/>
+                  </str>
+                  <str name="correspondingQuantityUnitOfMeasure">
+                    <tt:value ref="$ref.CORRESPONDING_QUANTITY_U_OF_M"/>
+                  </str>
+                  <str name="correspondingQuantityContent">
+                    <tt:value ref="$ref.CORRESPONDING_QUANTITY_CONTENT"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+            <array name="quantityDimensions">
+              <tt:loop ref="$ref.QUANTITY_DIMENSIONS_SM">
+                <object>
+                  <str name="unitOfMeasure">
+                    <tt:value ref="$ref.UNIT_OF_MEASURE"/>
+                  </str>
+                  <str name="dimensionName">
+                    <tt:value ref="$ref.DIMENSION_NAME"/>
+                  </str>
+                  <str name="dimensionQuantityUnitOfMeasure">
+                    <tt:value ref="$ref.DIMENSION_QUANTITY_UOM"/>
+                  </str>
+                  <str name="dimensionQuantityContent">
+                    <tt:value ref="$ref.DIMENSION_QUANTITY_CONTENT"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+            <array name="globalTradeItemNumbers">
+              <tt:loop ref="$ref.GLOBAL_TRADE_ITEM_NUM">
+                <object>
+                  <str name="unitOfMeasure">
+                    <tt:value ref="$ref.UNIT_OF_MEASURE"/>
+                  </str>
+                  <str name="globalTradeItemNumber">
+                    <tt:value ref="$ref.GLOBAL_TRADE_ITEM_NUMBER"/>
+                  </str>
+                  <str name="isMain">
+                    <tt:value ref="$ref.IS_MAIN"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+            <array name="sales">
+              <tt:loop ref="$ref.PRODUCT_SALES">
+                <object>
+                  <str name="salesOrganization">
+                    <tt:value ref="$ref.SALES_ORGANIZATION"/>
+                  </str>
+                  <str name="distributionChannel">
+                    <tt:value ref="$ref.DISTRIBUTION_CHANNEL"/>
+                  </str>
+                  <str name="salesUnitOfMeasure">
+                    <tt:value ref="$ref.SALES_MEASURE_UNIT"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+             <array name="plants">
+              <tt:loop ref="$ref.PLANTS">
+                <object>
+                  <str name="plantId">
+                    <tt:value ref="$ref.PLANT_ID"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+            <array name="productUnitOfMeasures">
+              <tt:loop ref="$ref.PRODUCT_UNIT_OF_MEASURES">
+                <object>
+                  <str name="measurementUnit">
+                    <tt:value ref="$ref.MEASUREMENT_UNIT"/>
+                  </str>
+                  <str name="numerator">
+                    <tt:value ref="$ref.NUMERATOR"/>
+                  </str>
+                  <str name="denominator">
+                    <tt:value ref="$ref.DENOMINATOR"/>
+                  </str>
+                </object>
+              </tt:loop>
+            </array>
+
+          </object>
+        </tt:loop>
+      </array>
+    </object>
+  </tt:template>
+</tt:transform>

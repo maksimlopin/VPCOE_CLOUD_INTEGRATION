@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_UPH_FACTORY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Factory Class to provide Upload instances</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory to provide Upload instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_INSTANCE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Factory to provide Upload instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_INSTANCE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Factory to provide Upload instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SURDP_LOGGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logger class for uploading data to RDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SURDP_LOGGER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Logger class for uploading data to RDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SURDP_LOGGER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Logger class for uploading data to RDP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_CHARACT_DETAILS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for characteristic details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_CHARACT_DETAILS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for characteristic details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_CHARACT_DETAILS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for characteristic details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_PROC_PCKG_PLM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Upload Entity processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_PROC_PCKG_PLM</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for Upload Entity processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_PROC_PCKG_PLM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for Upload Entity processing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory to provide Upload instances</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Factory to provide Upload instances</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Factory to provide Upload instances</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

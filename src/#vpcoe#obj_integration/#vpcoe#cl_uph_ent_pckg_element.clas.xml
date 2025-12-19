@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_UPH_ENT_PCKG_ELEMENT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Entity for Packaging Element Data</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Packaging Element Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Get Packaging Element Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Get Packaging Element Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FRACTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Packaging Element Fraction Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FRACTIONS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Get Packaging Element Fraction Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FRACTIONS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Get Packaging Element Fraction Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PRODUCTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Packaging Element Product Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PRODUCTS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Get Packaging Element Product Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PRODUCTS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Get Packaging Element Product Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DATA</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_FRACTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_FRACTIONS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_FRACTIONS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PRODUCTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PRODUCTS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PRODUCTS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_DATA</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IT_FRACTIONS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IT_FRACTIONS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IT_FRACTIONS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IT_PRODUCTS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IT_PRODUCTS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IT_PRODUCTS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>RS_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>RS_DATA</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>RS_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Structure for Entity Packaging Element</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FRACTIONS</CMPNAME>
+     <SCONAME>RT_FRACTIONS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FRACTIONS</CMPNAME>
+     <SCONAME>RT_FRACTIONS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FRACTIONS</CMPNAME>
+     <SCONAME>RT_FRACTIONS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRODUCTS</CMPNAME>
+     <SCONAME>RT_PRODUCTS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRODUCTS</CMPNAME>
+     <SCONAME>RT_PRODUCTS</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRODUCTS</CMPNAME>
+     <SCONAME>RT_PRODUCTS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Entity Data</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

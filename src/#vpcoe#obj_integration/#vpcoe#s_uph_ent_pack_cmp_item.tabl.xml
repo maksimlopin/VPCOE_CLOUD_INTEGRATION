@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/VPCOE/S_UPH_ENT_PACK_CMP_ITEM</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>SURDP:Packaging Composition Item Data</DDTEXT>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>PACKAGINGELEMENTDISPLAYID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000080</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000040</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>The display id of the specification</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PACKAGINGELEMENTVERSION</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000080</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000040</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>The version of the specification</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>LEVELCODE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Component-Type of input composition</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>QUANTITY</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000012</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000022</LENG>
+     <DECIMALS>000006</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Quantity of assigned packaging element as given in the formu</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>QUANTITYUNITOFMEASUREID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000006</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000003</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>UoM from assigned packaging element as given in the formula</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>WWFGROUP</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000002</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>WWF Group</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>EPRGROUP</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>ERP Group</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>USAGE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Usage type code</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>COUNT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000006</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Count per packaging element</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PACKAGINGELEMENTVALIDFROM</FIELDNAME>
+     <ROLLNAME>ESEVALFR</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>T</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>COVERAGE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000012</INTLEN>
+     <DATATYPE>DEC</DATATYPE>
+     <LENG>000022</LENG>
+     <DECIMALS>000006</DECIMALS>
+     <MASK>  DEC</MASK>
+     <DDTEXT>Percentage of the area that is covered</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>J</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>SURDP:Packaging Composition Item Data</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>SURDP:Packaging Composition Item Data</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

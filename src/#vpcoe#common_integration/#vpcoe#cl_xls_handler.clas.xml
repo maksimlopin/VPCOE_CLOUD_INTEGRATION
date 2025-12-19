@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_XLS_HANDLER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for Excel</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_BORDER_TO_STYLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add border node to a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_BORDER_TO_STYLE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Add border node to a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_BORDER_TO_STYLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add border node to a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_CELL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add a new cell tag on the row node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_CELL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Add a new cell tag on the row node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_CELL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add a new cell tag on the row node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_COMMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add additional text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_COMMENT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Add additional text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_COMMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add additional text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ROW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add a new row node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ROW</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Add a new row node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ROW</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add a new row node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add a new table node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_TABLE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Add a new table node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_TABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add a new table node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_WORKSHEET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add a new worksheet node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_WORKSHEET</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Add a new worksheet node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_WORKSHEET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add a new worksheet node on the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_DOCUMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instantiate DOM object and create Workbook node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_DOCUMENT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Instantiate DOM object and create Workbook node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_DOCUMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Instantiate DOM object and create Workbook node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_RANGE_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creation range table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_RANGE_TABLE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Creation range table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_RANGE_TABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Creation range table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_STYLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_STYLE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Create a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_STYLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_STYLES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create styles node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_STYLES</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Create styles node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_STYLES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create styles node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_XLS_FILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a binary file from a XML table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_XLS_FILE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Create a binary file from a XML table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_XLS_FILE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create a binary file from a XML table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_XML_DOCUMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_XML_DOCUMENT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Create the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_XML_DOCUMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create the XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DDIF_FIELDINFO_GET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get data dictionary information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DDIF_FIELDINFO_GET</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Get data dictionary information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DDIF_FIELDINFO_GET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Get data dictionary information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOCUMENT_PROPERTIES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create document properties node and set author value attt.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOCUMENT_PROPERTIES</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Create document properties node and set author value attt.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOCUMENT_PROPERTIES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create document properties node and set author value attt.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execute the process to create a XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Execute the process to create a XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Execute the process to create a XML document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filling worksheet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_DATA</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Filling worksheet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Filling worksheet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_DATA_CELL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill the value of a cell</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_DATA_CELL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Fill the value of a cell</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_DATA_CELL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fill the value of a cell</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_HEADER_ROWS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill the header values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_HEADER_ROWS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Fill the header values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_HEADER_ROWS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fill the header values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_ITEM_ROWS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill the item values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_ITEM_ROWS</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Fill the item values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_ITEM_ROWS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fill the item values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PROD_EXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filling in data for Product Extension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PROD_EXT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Filling in data for Product Extension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PROD_EXT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Filling in data for Product Extension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_ALIGNMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set alignment attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_ALIGNMENT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set alignment attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_ALIGNMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set alignment attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_BORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set border attributes of border node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_BORDER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set border attributes of border node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_BORDER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set border attributes of border node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_FONT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set font attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_FONT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set font attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_FONT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set font attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_HEIGHT_ROW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set row height</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_HEIGHT_ROW</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set row height</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_HEIGHT_ROW</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set row height</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_INTERIOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set interior attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_INTERIOR</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set interior attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_INTERIOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set interior attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set number format attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_NUMBER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set number format attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set number format attributes of a style</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_WIDTH_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set columns width of the table node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_WIDTH_COLUMN</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set columns width of the table node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_WIDTH_COLUMN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set columns width of the table node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA_REFERENCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dynamically get the input data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA_REFERENCE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Dynamically get the input data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA_REFERENCE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Dynamically get the input data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MERGE_CELL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Merge cells</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MERGE_CELL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Merge cells</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MERGE_CELL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Merge cells</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MERGE_DOWN_CELL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Merge down cells</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MERGE_DOWN_CELL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Merge down cells</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MERGE_DOWN_CELL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Merge down cells</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_COLUMN</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_COLUMN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_RANGE_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_RANGE_NAME</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_RANGE_NAME</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_RANGE_NAMES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_RANGE_NAMES</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_RANGE_NAMES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Element of an XML Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RENDER_XML_DOCUMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Render the document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RENDER_XML_DOCUMENT</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Render the document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RENDER_XML_DOCUMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Render the document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_XLS_FILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save the XML file as a binary file with XLS extension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_XLS_FILE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Save the XML file as a binary file with XLS extension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_XLS_FILE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Save the XML file as a binary file with XLS extension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set column properties</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_COLUMN</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set column properties</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_COLUMN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set column properties</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_GRIDLINES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set page markup parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_GRIDLINES</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set page markup parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_GRIDLINES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set page markup parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_POSITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set start position</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_POSITION</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Set start position</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_POSITION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set start position</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_DATA</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_DATA</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_DATA</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PROD_EXT</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PROD_EXT</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PROD_EXT</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Return parameter table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_XLS_FILE</CMPNAME>
+     <SCONAME>IO_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_XLS_FILE</CMPNAME>
+     <SCONAME>IO_LOG</SCONAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE_XLS_FILE</CMPNAME>
+     <SCONAME>IO_LOG</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

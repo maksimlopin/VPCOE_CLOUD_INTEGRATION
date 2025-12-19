@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Helper for Unit Tests</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/VPCOE/SAPLRDP_AUNIT_HELPER</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/VPCOE/RDP_READ_MATL_EXP_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Select /VPCOE/MATL_EXP for RFC call</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>TT_MATL_EXP</PARAMETER>
+       <DBSTRUCT>/VPCOE/MATL_EXP</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TT_MATL_EXP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Document Table for Unit Testing - Expected Data</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

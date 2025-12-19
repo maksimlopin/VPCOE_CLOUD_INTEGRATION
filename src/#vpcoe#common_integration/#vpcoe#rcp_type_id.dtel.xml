@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RCP_TYPE_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/VPCOE/RCP_TYPE_ID</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Recipe Type</DDTEXT>
+    <REPTEXT>Recipe Type</REPTEXT>
+    <SCRTEXT_S>Rcpe Type</SCRTEXT_S>
+    <SCRTEXT_M>Recipe Type</SCRTEXT_M>
+    <SCRTEXT_L>Recipe Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>/PLMB/RCP_TYPE_DMZ</SHLPNAME>
+    <SHLPFIELD>RCP_TYPE_ID</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Rezeptart</DDTEXT>
+     <REPTEXT>Rezeptart</REPTEXT>
+     <SCRTEXT_S>Rezeptart</SCRTEXT_S>
+     <SCRTEXT_M>Rezeptart</SCRTEXT_M>
+     <SCRTEXT_L>Rezeptart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>レシピタイプ</DDTEXT>
+     <REPTEXT>レシピタイプ</REPTEXT>
+     <SCRTEXT_S>レシピType</SCRTEXT_S>
+     <SCRTEXT_M>レシピタイプ</SCRTEXT_M>
+     <SCRTEXT_L>レシピタイプ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Receptsoort</DDTEXT>
+     <REPTEXT>Receptsoort</REPTEXT>
+     <SCRTEXT_S>Receptsrt</SCRTEXT_S>
+     <SCRTEXT_M>Receptsoort</SCRTEXT_M>
+     <SCRTEXT_L>Receptsoort</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de receta</DDTEXT>
+     <REPTEXT>Cl.receta</REPTEXT>
+     <SCRTEXT_S>Cl.receta</SCRTEXT_S>
+     <SCRTEXT_M>Clase de receta</SCRTEXT_M>
+     <SCRTEXT_L>Clase de receta</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/VPCOE/CL_UPH_PROC_BASE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Base entity processor implementation</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPH_HTTP_UTIL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for RDP upload HTTP utility</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UPL_TRANSFER_MAPPER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOAD_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load Id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_UPLOAD_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_UPLOAD_MODE</CMPNAME>
+     <LANGU>J</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_UPLOAD_MODE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_UPLOAD_TARGET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload Target API</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DETECT_UPLOAD_TARGET</CMPNAME>
+     <SCONAME>EV_UPLOAD_TARGET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload Target API</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DETECT_UPLOAD_TARGET</CMPNAME>
+     <SCONAME>IV_RFCDEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical Destination (Specified in Function Call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_FALLBACK_MAPPER</CMPNAME>
+     <SCONAME>IV_UPLOAD_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload Entity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_FALLBACK_MAPPER</CMPNAME>
+     <SCONAME>IV_UPLOAD_TARGET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical Destination (Specified in Function Call)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_FALLBACK_MAPPER</CMPNAME>
+     <SCONAME>IV_UPLOAD_TARGET_VERSION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_FALLBACK_MAPPER</CMPNAME>
+     <SCONAME>RO_TSFR_MAPPER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Transfer Mapper</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

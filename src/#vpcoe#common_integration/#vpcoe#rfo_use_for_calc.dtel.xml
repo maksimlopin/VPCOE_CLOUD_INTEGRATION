@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/VPCOE/RFO_USE_FOR_CALC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Alternative Item Used for Calculation</DDTEXT>
+    <REPTEXT>Alternative Used for Calc.</REPTEXT>
+    <SCRTEXT_S>Alt. Used</SCRTEXT_S>
+    <SCRTEXT_M>Alternative Used</SCRTEXT_M>
+    <SCRTEXT_L>Alternative Used</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zur Berechnung verwendete Alternativposition</DDTEXT>
+     <REPTEXT>Zur Berechn. verw. Alternative</REPTEXT>
+     <SCRTEXT_S>Verw. Alt.</SCRTEXT_S>
+     <SCRTEXT_M>Verw.Alternative</SCRTEXT_M>
+     <SCRTEXT_L>Verw. Alternative</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>計算に使用される代替明細</DDTEXT>
+     <REPTEXT>計算に使用される代替</REPTEXT>
+     <SCRTEXT_S>使用代替</SCRTEXT_S>
+     <SCRTEXT_M>使用される代替</SCRTEXT_M>
+     <SCRTEXT_L>使用される代替</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Voor berekening gebruikte alternatieve positie</DDTEXT>
+     <REPTEXT>Voor berek. gebr. alternatief</REPTEXT>
+     <SCRTEXT_S>Gebr. alt.</SCRTEXT_S>
+     <SCRTEXT_M>Gebr. alternat.</SCRTEXT_M>
+     <SCRTEXT_L>Gebruikt alternatief</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Posición alternativa utilizada para el cálculo</DDTEXT>
+     <REPTEXT>Alternativa utilizada p.cálc.</REPTEXT>
+     <SCRTEXT_S>Alt.util.</SCRTEXT_S>
+     <SCRTEXT_M>Altern.utilizada</SCRTEXT_M>
+     <SCRTEXT_L>Alternativa util.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
